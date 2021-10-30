@@ -6,11 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "blade-ui-kit/blade-ui-kit": "^0.3.2",
+        "calebporzio/sushi": "^2.3",
+        "codeat3/blade-icons-packages-collection": "dev-main",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "laravolt/avatar": "^4.1",
+        "symfony/yaml": "^5.3"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
