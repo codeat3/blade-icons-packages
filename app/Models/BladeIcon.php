@@ -18,6 +18,21 @@ class BladeIcon extends Model
         'listed_on_blade_icon_readme' => 'boolean',
     ];
 
+    public function getMaintainerAttribute()
+    {
+        return Arr::first($this->maintainers);
+    }
+
+    public function getMaintainerNameAttribute()
+    {
+        return Arr::get($this->maintainer, 'name');
+    }
+
+    public function getMaintainerAvatarAttribute()
+    {
+        return Arr::get($this->maintainer, 'avatar_url');
+    }
+
     public function getRows()
     {
         $collectionPath = base_path() . '/' . self::YAML_FILE_PATH;

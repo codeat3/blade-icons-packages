@@ -5,8 +5,8 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "ext-pdo_sqlite": "*",
         "php": "^7.3|^8.0",
+        "ext-pdo_sqlite": "*",
         "blade-ui-kit/blade-ui-kit": "^0.3.2",
         "calebporzio/sushi": "^2.3",
         "codeat3/blade-icons-packages-collection": "dev-main",
@@ -16,6 +16,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "laravolt/avatar": "^4.1",
+        "livewire/livewire": "^2.7",
         "symfony/yaml": "^5.3"
     },
     "require-dev": {
