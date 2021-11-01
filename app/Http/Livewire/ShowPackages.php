@@ -26,8 +26,16 @@ class ShowPackages extends Component
         $this->validate();
         return view('livewire.show-packages', [
             'packages' => BladeIcon::query()
-                ->when($this->search, fn ($builder) => $builder->where('name', 'LIKE', '%' . $this->search . '%'))
-                ->when($this->listed_on_readme, fn ($builder) => $builder->where('listed_on_blade_icon_readme', '=', true))
+                ->when(
+                    $this->search,
+                    fn ($builder) => $builder->where('name', 'LIKE', '%' . $this->search . '%')
+                                        ->orWhere('package', 'LIKE', '%' . $this->search . '%')
+                                        ->orWhere('maintainers', 'LIKE', '%' . $this->search . '%')
+                )
+                ->when(
+                    $this->listed_on_readme,
+                    fn ($builder) => $builder->where('listed_on_blade_icon_readme', '=', true)
+                )
                 ->when(
                     $this->sort_by && $this->sort_order,
                     fn ($builder) => $builder->orderBy($this->sort_by, $this->sort_order),
