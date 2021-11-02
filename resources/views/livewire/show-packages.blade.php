@@ -2,7 +2,7 @@
     <!-- Search:START -->
     <div class="my-5 md:mt-0 md:col-span-2">
         <form action="#" method="POST">
-            <div class="shadow overflow-hidden sm:rounded-md">
+            <div class="border-2 border-gray-100 shadow overflow-hidden sm:rounded-md">
                 <div class="px-4 py-5 bg-white sm:p-6">
                     <div class="grid grid-cols-6 gap-6">
                         <div class="col-span-6 sm:col-span-3">
@@ -38,21 +38,26 @@
                                 </div>
                                 <div class="mt-4 space-y-4 text-gray-600">
                                     <div class="flex items-center">
-                                        <input id="listed_on_readme_yes" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="yes"
+                                        <input id="listed_on_readme_yes" wire:model="listed_on_readme"
+                                            name="listed_on_readme" type="radio" value="yes"
                                             class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                        <label for="listed_on_readme_yes" class="ml-3 block text-sm font-medium text-gray-700">
+                                        <label for="listed_on_readme_yes"
+                                            class="ml-3 block text-sm font-medium text-gray-700">
                                             Listed
                                         </label>
                                     </div>
                                     <div class="flex items-center">
-                                        <input id="listed_on_readme_no" wire:model="listed_on_readme" name="listed_on_readme" type="radio"  value="no"
+                                        <input id="listed_on_readme_no" wire:model="listed_on_readme"
+                                            name="listed_on_readme" type="radio" value="no"
                                             class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                        <label for="listed_on_readme_no" class="ml-3 block text-sm font-medium text-gray-700">
+                                        <label for="listed_on_readme_no"
+                                            class="ml-3 block text-sm font-medium text-gray-700">
                                             Not Listed
                                         </label>
                                     </div>
                                     <div class="flex items-center">
-                                        <input id="listed_on_readme_all" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="all"
+                                        <input id="listed_on_readme_all" wire:model="listed_on_readme"
+                                            name="listed_on_readme" type="radio" value="all"
                                             class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
                                         <label for="listed_on_readme_all"
                                             class="ml-3 block text-sm font-medium text-gray-700">
