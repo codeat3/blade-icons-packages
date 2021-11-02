@@ -36,7 +36,7 @@
 
                                     </p>
                                 </div>
-                                <div class="mt-4 space-y-4 text-gray-600">
+                                <div class="mt-4 space-y-1 text-gray-600">
                                     <div class="flex items-center">
                                         <input id="listed_on_readme_yes" wire:model="listed_on_readme"
                                             name="listed_on_readme" type="radio" value="yes"
@@ -75,8 +75,11 @@
     <!-- Search:END -->
     <div class="my-5 md:mt-0 md:col-span-2">
         <div class="overflow-hidden sm:rounded-md text-right">
-            <span class="px-4  text-xs font-medium text-gray-500">
-                Last Updated At: {{ $updated_at->diffForHumans() }}
+            <span class="px-4 text-sm text-gray-500">
+                <span class="font-bold">Package Count:</span> {{ $packages->count() }} / {{ $total_packages }}
+            </span>
+            <span class="px-4 text-sm text-gray-500">
+                <span class="font-bold">Last Updated:</span> {{ $updated_at->diffForHumans() }}
             </span>
         </div>
     </div>

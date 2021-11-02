@@ -36,6 +36,7 @@ class ShowPackages extends Component
         $this->validate();
         return view('livewire.show-packages', [
             'updated_at' => (new BladeIcon())->getUpdatedAtTime(),
+            'total_packages' => BladeIcon::count(),
             'packages' => BladeIcon::query()
                 ->when(
                     $this->search,
