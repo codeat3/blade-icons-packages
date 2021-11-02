@@ -8,6 +8,7 @@
     <style>
         [x-cloak] { display: none !important; }
     </style>
+    <script async src="https://cdn.splitbee.io/sb.js"></script>
     @livewireStyles
 </head>
 
