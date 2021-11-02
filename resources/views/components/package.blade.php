@@ -74,7 +74,7 @@
     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
         <div class="text-sm text-gray-900">{{ $package->original_package['name'] }}</div>
         <div class="text-sm text-gray-500">
-            <a target="_blank" href="{{ $package->original_package['url'] }}" title="{{ $package->original_package['name'] }}">
+            <a target="_blank" href="{{ $package->original_package['url'] }}" title="{{ $package->original_package['name'] }}" class="hover:underline">
                 {{ $package->original_package['url'] }}
             </a>
         </div>
