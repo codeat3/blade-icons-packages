@@ -18,8 +18,18 @@ class ShowPackages extends Component
         'search' => ['nullable', 'string'],
         'sort_by' => ['nullable', 'in:name,downloads,stars'],
         'sort_order' => ['nullable', 'in:asc,desc'],
-        'listed_on_readme' => ['nullable', 'boolean'],
+        'listed_on_readme' => ['nullable', 'in:all,yes,no'],
     ];
+
+    public function rules()
+    {
+        return $this->rules;
+    }
+
+    public function updated($propertyName)
+    {
+        $this->validateOnly($propertyName, $this->rules());
+    }
 
     public function render()
     {
@@ -35,7 +45,14 @@ class ShowPackages extends Component
                 )
                 ->when(
                     $this->listed_on_readme,
-                    fn ($builder) => $builder->where('listed_on_blade_icon_readme', '=', true)
+                    function ($builder, $listed_on_readme) {
+                        if($listed_on_readme === 'yes') {
+                            $builder->where('listed_on_blade_icon_readme', '=', true);
+                        }
+                        if($listed_on_readme === 'no') {
+                            $builder->where('listed_on_blade_icon_readme', '=', false);
+                        }
+                    }
                 )
                 ->when(
                     $this->sort_by && $this->sort_order,

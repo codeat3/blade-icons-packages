@@ -29,21 +29,39 @@
                             </select>
                         </div>
                         <div class="col-span-6 sm:col-span-3">
-                            <div class="flex items-start">
-                                <div class="flex items-center h-5">
-                                    <input wire:model="listed_on_readme" type="checkbox"
-                                        class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
-                                </div>
-                                <div class="ml-3 text-sm">
-                                    <label for="listed_on_readme" class="font-medium text-gray-700">Blade Icons
-                                        README</label>
-                                    <p class="text-gray-500">Filter packages listed on <a
-                                            href="https://github.com/blade-ui-kit/blade-icons">Blade Icons README</a>.
+                            <fieldset>
+                                <div>
+                                    <legend class="text-base font-medium text-gray-900">Blade Icons README</legend>
+                                    <p class="text-sm text-gray-500">
+
                                     </p>
                                 </div>
-                            </div>
+                                <div class="mt-4 space-y-4">
+                                    <div class="flex items-center">
+                                        <input id="push-email" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="yes"
+                                            class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700">
+                                            Listed
+                                        </label>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input id="push-nothing" wire:model="listed_on_readme" name="listed_on_readme" type="radio"  value="no"
+                                            class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700">
+                                            Not Listed
+                                        </label>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input id="all" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="all"
+                                            class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <label for="all"
+                                            class="ml-3 block text-sm font-medium text-gray-700">
+                                            All
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -97,7 +115,7 @@
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
                             @foreach ($packages as $package)
-                            <x-package :package="$package" />
+                                <x-package :package="$package" />
                             @endforeach
                         </tbody>
                     </table>
