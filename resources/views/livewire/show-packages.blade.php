@@ -50,6 +50,13 @@
         </form>
     </div>
     <!-- Search:END -->
+    <div class="my-5 md:mt-0 md:col-span-2">
+        <div class="overflow-hidden sm:rounded-md text-right">
+            <span class="px-4  text-xs font-medium text-gray-500">
+                Last Updated At: {{ $updated_at->diffForHumans() }}
+            </span>
+        </div>
+    </div>
     <!-- Table: START -->
     <div class="flex flex-col">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">

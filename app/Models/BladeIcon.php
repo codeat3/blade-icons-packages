@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Support\Arr;
 use Symfony\Component\Yaml\Yaml;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 
 class BladeIcon extends Model
 {
@@ -17,6 +18,8 @@ class BladeIcon extends Model
         'original_package' => 'array',
         'listed_on_blade_icon_readme' => 'boolean',
     ];
+
+    protected $yamlData;
 
     public function getMaintainerAttribute()
     {
@@ -33,10 +36,24 @@ class BladeIcon extends Model
         return Arr::get($this->maintainer, 'avatar_url');
     }
 
+    private function getYamlData()
+    {
+        if (empty($this->yamlData)) {
+            $collectionPath = base_path() . '/' . self::YAML_FILE_PATH;
+            $this->yamlData = (new Yaml())->parse(file_get_contents($collectionPath));
+        }
+
+        return $this->yamlData;
+    }
+
+    public function getUpdatedAtTime()
+    {
+        return Carbon::parse(Arr::get($this->getYamlData(), 'updated_at'));
+    }
+
     public function getRows()
     {
-        $collectionPath = base_path() . '/' . self::YAML_FILE_PATH;
-        $yamlData = (new Yaml())->parse(file_get_contents($collectionPath));
+        $yamlData = $this->getYamlData();
         $packages = collect(Arr::get($yamlData, 'packages', []))
             ->map(function ($values) {
                 $values['maintainers'] = json_encode(Arr::get($values, 'maintainers'));
