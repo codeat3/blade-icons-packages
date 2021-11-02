@@ -1,0 +1,14 @@
+name: Deploy from event
+
+on:
+  repository_dispatch:
+    types: [collection-updated]
+
+jobs:
+  myEvent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.client_payload.ref }}
+      - run: echo ${{ github.event.client_payload.sha }}
