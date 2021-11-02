@@ -36,6 +36,11 @@ class BladeIcon extends Model
         return Arr::get($this->maintainer, 'avatar_url');
     }
 
+    public function getPackageUrlAttribute()
+    {
+        return 'https://github.com/'.$this->package;
+    }
+
     private function getYamlData()
     {
         if (empty($this->yamlData)) {

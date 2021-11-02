@@ -32,7 +32,11 @@
     </td>
     <td class="px-6 py-4 whitespace-nowrap">
         <div class="text-sm text-gray-900">{{ $package->name }}</div>
-        <div class="text-sm text-gray-500">{{ $package->package }}</div>
+        <div class="text-sm text-gray-500">
+            <a href="{{ $package->package_url }}" title="{{ $package->package }}" class="hover:underline">
+                {{ $package->package }}
+            </a>
+        </div>
 
     </td>
     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -69,7 +73,11 @@
     </td>
     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
         <div class="text-sm text-gray-900">{{ $package->original_package['name'] }}</div>
-        <div class="text-sm text-gray-500">{{ $package->original_package['url'] }}</div>
+        <div class="text-sm text-gray-500">
+            <a target="_blank" href="{{ $package->original_package['url'] }}" title="{{ $package->original_package['name'] }}">
+                {{ $package->original_package['url'] }}
+            </a>
+        </div>
     </td>
     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
         <div class="text-sm text-gray-900">{{ number_format($package->downloads) }}</div>

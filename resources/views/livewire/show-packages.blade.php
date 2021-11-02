@@ -36,25 +36,25 @@
 
                                     </p>
                                 </div>
-                                <div class="mt-4 space-y-4">
+                                <div class="mt-4 space-y-4 text-gray-600">
                                     <div class="flex items-center">
-                                        <input id="push-email" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="yes"
+                                        <input id="listed_on_readme_yes" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="yes"
                                             class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                        <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700">
+                                        <label for="listed_on_readme_yes" class="ml-3 block text-sm font-medium text-gray-700">
                                             Listed
                                         </label>
                                     </div>
                                     <div class="flex items-center">
-                                        <input id="push-nothing" wire:model="listed_on_readme" name="listed_on_readme" type="radio"  value="no"
+                                        <input id="listed_on_readme_no" wire:model="listed_on_readme" name="listed_on_readme" type="radio"  value="no"
                                             class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                        <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700">
+                                        <label for="listed_on_readme_no" class="ml-3 block text-sm font-medium text-gray-700">
                                             Not Listed
                                         </label>
                                     </div>
                                     <div class="flex items-center">
-                                        <input id="all" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="all"
+                                        <input id="listed_on_readme_all" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="all"
                                             class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                        <label for="all"
+                                        <label for="listed_on_readme_all"
                                             class="ml-3 block text-sm font-medium text-gray-700">
                                             All
                                         </label>
