@@ -3,9 +3,10 @@
 namespace App\Models;
 
 use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+use Illuminate\Support\Carbon;
 use Symfony\Component\Yaml\Yaml;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Carbon;
 
 class BladeIcon extends Model
 {
@@ -15,6 +16,7 @@ class BladeIcon extends Model
 
     protected $casts = [
         'maintainers' => 'array',
+        'versions' => 'array',
         'original_package' => 'array',
         'listed_on_blade_icon_readme' => 'boolean',
     ];
@@ -38,7 +40,27 @@ class BladeIcon extends Model
 
     public function getPackageUrlAttribute()
     {
-        return 'https://github.com/'.$this->package;
+        return 'https://github.com/' . $this->package;
+    }
+
+    public function getPackagistStatsUrlAttribute()
+    {
+        return 'https://packagist.org/packages/' . $this->package . '/stats';
+    }
+
+    public function getLatestVersionAttribute()
+    {
+        $versions = collect($this->versions)
+            ->filter(fn ($v) => !Str::contains($v, 'dev'))
+            ->toArray();
+
+        if (count($versions) === 0) {
+            $versions = collect($this->versions)
+                ->toArray();
+        }
+
+        usort($versions, 'version_compare');
+        return Arr::last($versions);
     }
 
     private function getYamlData()
@@ -62,7 +84,9 @@ class BladeIcon extends Model
         $packages = collect(Arr::get($yamlData, 'packages', []))
             ->map(function ($values) {
                 $values['maintainers'] = json_encode(Arr::get($values, 'maintainers'));
+                $values['versions'] = json_encode(Arr::get($values, 'versions'));
                 $values['original_package'] = json_encode(Arr::get($values, 'original_package'));
+                // dd($values);
                 return $values;
             })->toArray();
         return $packages;

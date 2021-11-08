@@ -80,7 +80,11 @@
         </div>
     </td>
     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-        <div class="text-sm text-gray-900">{{ number_format($package->downloads) }}</div>
+        <div class="text-sm text-gray-900">
+        <a target="_blank" href="{{ $package->packagist_stats_url }}" title="{{ $package->name }}" class="hover:underline">
+        {{ number_format($package->downloads) }}
+        </a>
+        </div>
     </td>
     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
         <div class="text-sm text-gray-900">{{ number_format($package->stars) }}</div>
