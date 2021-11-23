@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "02027c16b42388d7e0556428cc14a528f91d1baa"
+                "reference": "73a5bc91972f7fdc1e73b746647d323d5d0f1421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/02027c16b42388d7e0556428cc14a528f91d1baa",
-                "reference": "02027c16b42388d7e0556428cc14a528f91d1baa",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/73a5bc91972f7fdc1e73b746647d323d5d0f1421",
+                "reference": "73a5bc91972f7fdc1e73b746647d323d5d0f1421",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2021-11-23T06:23:45+00:00"
+            "time": "2021-11-23T12:31:41+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -3406,6 +3406,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/mailer",
             "time": "2021-10-18T15:26:12+00:00"
         },
         {
