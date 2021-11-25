@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "ded8b1d8a5a451d5518fc70eb0a0ac6b84976876"
+                "reference": "0e02c7322c06d3d89cb7950e379e289638eedfb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ded8b1d8a5a451d5518fc70eb0a0ac6b84976876",
-                "reference": "ded8b1d8a5a451d5518fc70eb0a0ac6b84976876",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/0e02c7322c06d3d89cb7950e379e289638eedfb9",
+                "reference": "0e02c7322c06d3d89cb7950e379e289638eedfb9",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2021-11-25T06:24:14+00:00"
+            "time": "2021-11-25T12:31:39+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -6143,16 +6143,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "28d12b473ffcbe326959385772fd5125c73bc974"
+                "reference": "317f6110c1977b50e06365bbb155fbe5079035ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/28d12b473ffcbe326959385772fd5125c73bc974",
-                "reference": "28d12b473ffcbe326959385772fd5125c73bc974",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/317f6110c1977b50e06365bbb155fbe5079035ec",
+                "reference": "317f6110c1977b50e06365bbb155fbe5079035ec",
                 "shasum": ""
             },
             "require": {
@@ -6217,7 +6217,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-11-24T08:47:21+00:00"
+            "time": "2021-11-25T10:26:30+00:00"
         },
         {
             "name": "facade/ignition-contracts",
