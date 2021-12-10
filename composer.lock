@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "7d145950667054ff5eb227dbfc36eade6a8289a4"
+                "reference": "ef83249cc6b6aec6b3046becda3fbb79b5e9c378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/7d145950667054ff5eb227dbfc36eade6a8289a4",
-                "reference": "7d145950667054ff5eb227dbfc36eade6a8289a4",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ef83249cc6b6aec6b3046becda3fbb79b5e9c378",
+                "reference": "ef83249cc6b6aec6b3046becda3fbb79b5e9c378",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2021-12-10T06:24:10+00:00"
+            "time": "2021-12-10T12:32:14+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
