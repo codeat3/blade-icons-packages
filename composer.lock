@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "fdc0435f3318220cf8dc8068acf202f9193c48a5"
+                "reference": "23f54f0c9eb3400e6962badc8d172726a690eddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/fdc0435f3318220cf8dc8068acf202f9193c48a5",
-                "reference": "fdc0435f3318220cf8dc8068acf202f9193c48a5",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/23f54f0c9eb3400e6962badc8d172726a690eddc",
+                "reference": "23f54f0c9eb3400e6962badc8d172726a690eddc",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2021-12-21T18:24:44+00:00"
+            "time": "2021-12-22T01:10:12+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1217,16 +1217,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.77.0",
+            "version": "v8.77.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "148b0df9eaac9f89bebb6b6fbbb0e9874e62ecc7"
+                "reference": "994dbac5c6da856c77c81a411cff5b7d31519ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/148b0df9eaac9f89bebb6b6fbbb0e9874e62ecc7",
-                "reference": "148b0df9eaac9f89bebb6b6fbbb0e9874e62ecc7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/994dbac5c6da856c77c81a411cff5b7d31519ca8",
+                "reference": "994dbac5c6da856c77c81a411cff5b7d31519ca8",
                 "shasum": ""
             },
             "require": {
@@ -1385,7 +1385,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-12-21T16:22:37+00:00"
+            "time": "2021-12-21T20:22:29+00:00"
         },
         {
             "name": "laravel/sanctum",
