@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f3f661c2ba86e219e445c35fa7b2ad2",
+    "content-hash": "5383a88d471d8f8276f9a213ec9913f3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "4d24a97b665d8d21742ac11de972413018fe53c5"
+                "reference": "e6a3e3662edbceceadeeffca3f8d277039b1680f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/4d24a97b665d8d21742ac11de972413018fe53c5",
-                "reference": "4d24a97b665d8d21742ac11de972413018fe53c5",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e6a3e3662edbceceadeeffca3f8d277039b1680f",
+                "reference": "e6a3e3662edbceceadeeffca3f8d277039b1680f",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2021-12-28T12:36:43+00:00"
+            "time": "2021-12-28T15:04:43+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -6531,9 +6531,6 @@
             "require": {
                 "php": "^7.1 || ^8.0"
             },
-            "replace": {
-                "myclabs/deep-copy": "self.version"
-            },
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
@@ -8441,9 +8438,9 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0",
+        "php": "^8.1.0",
         "ext-pdo_sqlite": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
