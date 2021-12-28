@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "cf26a3199e4117c717deac6864cd5eeb74db168d"
+                "reference": "125abdde25bdb031fdce3da97f789a05edc95dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/cf26a3199e4117c717deac6864cd5eeb74db168d",
-                "reference": "cf26a3199e4117c717deac6864cd5eeb74db168d",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/125abdde25bdb031fdce3da97f789a05edc95dc5",
+                "reference": "125abdde25bdb031fdce3da97f789a05edc95dc5",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2021-12-28T15:09:09+00:00"
+            "time": "2021-12-28T15:09:38+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -6531,6 +6531,9 @@
             "require": {
                 "php": "^7.1 || ^8.0"
             },
+            "replace": {
+                "myclabs/deep-copy": "self.version"
+            },
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
@@ -8442,5 +8445,5 @@
         "ext-pdo_sqlite": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
