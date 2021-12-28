@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [8.0]
+        php: [8.1]
         laravel: [^8.0]
 
     name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
@@ -37,9 +37,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Updated collection
-
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
-        with:
-            heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-            heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-            heroku_email: ${{ secrets.HEROKU_USER_EMAIL_ADDRESS }}
