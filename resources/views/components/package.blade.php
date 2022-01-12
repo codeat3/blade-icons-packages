@@ -1,31 +1,21 @@
-{{-- {{ dd($package) }} --}}
-{{-- "id" => "1"
-"package" => "codeat3/blade-academicons"
-"name" => "Blade Academicons"
-"original_package" => null
-"latest_version" => "1.0.1"
-"downloads" => "55"
-"stars" => "1"
-"author_name" => "swapnilsarwe"
-"author_avatar" => "https://www.gravatar.com/avatar/0a4d4844e866bb689ea4602071e9dfe7?d=identicon"
-] --}}
 <tr>
     <td class="px-6 py-4 whitespace-nowrap">
         <div class="flex items-center">
-            <div class="flex-shrink-0 h-10 w-10">
-                <div class="flex -space-x-2 overflow-hidden">
-                    @foreach ($package->maintainers as $maintainer)
-                    <x-avatar class="mb-6 object-cover object-center rounded-full" title="{{ $maintainer['name'] }}"
-                        search="{{ $maintainer['name'] }}" src="{{ $maintainer['avatar_url'] }}" />
-                    @endforeach
-                </div>
-            </div>
+            <div class="flex -space-x-2 overflow-hidden">
+                @foreach ($package->maintainers as $maintainer)
+                    <a href="https://github.com/{{ $maintainer['name'] }}" target="_blank">
+                    <x-avatar
+                        class="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                        title="{{ $maintainer['name'] }}"
+                        search="{{ $maintainer['name'] }}"
+                        src="{{ $maintainer['avatar_url'] }}" />
+                    </a>
+                @endforeach
+              </div>
+
             <div class="ml-4">
                 <div class="text-sm font-medium text-gray-900">
-                    {{ $package->author_name }}
-                </div>
-                <div class="text-sm text-gray-500">
-                    {{-- jane.cooper@example.com --}}
+                    {{-- {{ $package->author_name }} --}}
                 </div>
             </div>
         </div>
