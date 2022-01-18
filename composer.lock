@@ -64,23 +64,23 @@
         },
         {
             "name": "blade-ui-kit/blade-ui-kit",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blade-ui-kit/blade-ui-kit.git",
-                "reference": "6de520bd54bf58b5bb655f5872f5d10922906520"
+                "reference": "c31e388b033efdb07e84961b372189b02800e522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blade-ui-kit/blade-ui-kit/zipball/6de520bd54bf58b5bb655f5872f5d10922906520",
-                "reference": "6de520bd54bf58b5bb655f5872f5d10922906520",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-ui-kit/zipball/c31e388b033efdb07e84961b372189b02800e522",
+                "reference": "c31e388b033efdb07e84961b372189b02800e522",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/filesystem": "^7.0|^8.0",
-                "illuminate/support": "^7.0|^8.0",
-                "illuminate/view": "^7.0|^8.0",
+                "illuminate/filesystem": "^7.0|^8.0|^9.0",
+                "illuminate/support": "^7.0|^8.0|^9.0",
+                "illuminate/view": "^7.0|^8.0|^9.0",
                 "nesbot/carbon": "^2.38",
                 "php": "^7.3|^8.0"
             },
@@ -89,7 +89,7 @@
                 "guzzlehttp/guzzle": "^6.5",
                 "league/commonmark": "^1.4|^2.0",
                 "lorisleiva/cron-translator": "^0.1.1",
-                "orchestra/testbench": "^5.0|^6.0",
+                "orchestra/testbench": "^5.0|^6.0|^7.0",
                 "phpunit/phpunit": "^9.0"
             },
             "suggest": {
@@ -140,7 +140,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-24T19:36:20+00:00"
+            "time": "2022-01-17T15:15:40+00:00"
         },
         {
             "name": "brick/math",
@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "e7e7431b8bf00c46e54cbe7408d5ac54af7edf07"
+                "reference": "1278bccb2df544033dbbca5e1e1dd65b4b587925"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e7e7431b8bf00c46e54cbe7408d5ac54af7edf07",
-                "reference": "e7e7431b8bf00c46e54cbe7408d5ac54af7edf07",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/1278bccb2df544033dbbca5e1e1dd65b4b587925",
+                "reference": "1278bccb2df544033dbbca5e1e1dd65b4b587925",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-01-17T12:38:43+00:00"
+            "time": "2022-01-18T01:19:27+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
