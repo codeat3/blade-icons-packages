@@ -76,6 +76,12 @@
     <div class="my-5 md:mt-0 md:col-span-2">
         <div class="overflow-hidden sm:rounded-md text-right">
             <span class="px-4 text-sm text-gray-500">
+                <span class="font-bold">Total Downloads:</span> {{ number_format($packages->sum('downloads')) }}
+            </span>
+            <span class="px-4 text-sm text-gray-500">
+                <span class="font-bold">Total Stars:</span> {{ number_format($packages->sum('stars')) }}
+            </span>
+            <span class="px-4 text-sm text-gray-500">
                 <span class="font-bold">Package Count:</span> {{ $packages->count() }} / {{ $total_packages }}
             </span>
             <span class="px-4 text-sm text-gray-500">
