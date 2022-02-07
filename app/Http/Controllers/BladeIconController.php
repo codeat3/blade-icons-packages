@@ -7,8 +7,10 @@ use Illuminate\Http\Request;
 
 class BladeIconController extends Controller
 {
-    public function __invoke() {
+    public function __invoke()
+    {
         $packages = BladeIcon::all();
+
         return view('list', [
             'packages' => $packages,
         ]);

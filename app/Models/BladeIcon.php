@@ -2,11 +2,11 @@
 
 namespace App\Models;
 
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use Illuminate\Support\Carbon;
-use Symfony\Component\Yaml\Yaml;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
+use Symfony\Component\Yaml\Yaml;
 
 class BladeIcon extends Model
 {
@@ -40,18 +40,18 @@ class BladeIcon extends Model
 
     public function getPackageUrlAttribute()
     {
-        return 'https://github.com/' . $this->package;
+        return 'https://github.com/'.$this->package;
     }
 
     public function getPackagistStatsUrlAttribute()
     {
-        return 'https://packagist.org/packages/' . $this->package . '/stats';
+        return 'https://packagist.org/packages/'.$this->package.'/stats';
     }
 
     public function getLatestVersionAttribute()
     {
         $versions = collect($this->versions)
-            ->filter(fn ($v) => !Str::contains($v, 'dev'))
+            ->filter(fn ($v) => ! Str::contains($v, 'dev'))
             ->toArray();
 
         if (count($versions) === 0) {
@@ -60,13 +60,14 @@ class BladeIcon extends Model
         }
 
         usort($versions, 'version_compare');
+
         return Arr::last($versions);
     }
 
     private function getYamlData()
     {
         if (empty($this->yamlData)) {
-            $collectionPath = base_path() . '/' . self::YAML_FILE_PATH;
+            $collectionPath = base_path().'/'.self::YAML_FILE_PATH;
             $this->yamlData = (new Yaml())->parse(file_get_contents($collectionPath));
         }
 
@@ -89,6 +90,7 @@ class BladeIcon extends Model
                 // dd($values);
                 return $values;
             })->toArray();
+
         return $packages;
     }
 }

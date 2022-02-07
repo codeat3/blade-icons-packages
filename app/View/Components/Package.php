@@ -7,6 +7,7 @@ use Illuminate\View\Component;
 class Package extends Component
 {
     public $package;
+
     public function __construct($package)
     {
         $this->package = $package;

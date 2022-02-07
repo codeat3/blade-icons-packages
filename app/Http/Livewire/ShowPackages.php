@@ -8,8 +8,11 @@ use Livewire\Component;
 class ShowPackages extends Component
 {
     public $search;
+
     public $sort_by = 'downloads';
+
     public $sort_order = 'desc';
+
     public $listed_on_readme;
 
     protected $queryString = ['search', 'sort_by', 'sort_order', 'listed_on_readme'];
@@ -34,23 +37,24 @@ class ShowPackages extends Component
     public function render()
     {
         $this->validate();
+
         return view('livewire.show-packages', [
             'updated_at' => (new BladeIcon())->getUpdatedAtTime(),
             'total_packages' => BladeIcon::count(),
             'packages' => BladeIcon::query()
                 ->when(
                     $this->search,
-                    fn ($builder) => $builder->where('name', 'LIKE', '%' . $this->search . '%')
-                                        ->orWhere('package', 'LIKE', '%' . $this->search . '%')
-                                        ->orWhere('maintainers', 'LIKE', '%' . $this->search . '%')
+                    fn ($builder) => $builder->where('name', 'LIKE', '%'.$this->search.'%')
+                                        ->orWhere('package', 'LIKE', '%'.$this->search.'%')
+                                        ->orWhere('maintainers', 'LIKE', '%'.$this->search.'%')
                 )
                 ->when(
                     $this->listed_on_readme,
                     function ($builder, $listed_on_readme) {
-                        if($listed_on_readme === 'yes') {
+                        if ($listed_on_readme === 'yes') {
                             $builder->where('listed_on_blade_icon_readme', '=', true);
                         }
-                        if($listed_on_readme === 'no') {
+                        if ($listed_on_readme === 'no') {
                             $builder->where('listed_on_blade_icon_readme', '=', false);
                         }
                     }
