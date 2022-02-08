@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "5d6dc9131ea956f23bed19112e84f14f37f662f9"
+                "reference": "342ee3016d45ebbafda9a4b534fe62e64cc5d705"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/5d6dc9131ea956f23bed19112e84f14f37f662f9",
-                "reference": "5d6dc9131ea956f23bed19112e84f14f37f662f9",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/342ee3016d45ebbafda9a4b534fe62e64cc5d705",
+                "reference": "342ee3016d45ebbafda9a4b534fe62e64cc5d705",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-02-08T01:15:28+00:00"
+            "time": "2022-02-08T12:33:35+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -7388,11 +7388,11 @@
                 }
             },
             "autoload": {
-                "classmap": [
-                    "src/"
-                ],
                 "files": [
                     "src/Framework/Assert/Functions.php"
+                ],
+                "classmap": [
+                    "src/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
