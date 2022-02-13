@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "c4e5c1d5a0aaff5eea40b8cabab77f1eca49f8d1"
+                "reference": "ec66aed23102b2f980e2b354c57889926c7acee0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/c4e5c1d5a0aaff5eea40b8cabab77f1eca49f8d1",
-                "reference": "c4e5c1d5a0aaff5eea40b8cabab77f1eca49f8d1",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ec66aed23102b2f980e2b354c57889926c7acee0",
+                "reference": "ec66aed23102b2f980e2b354c57889926c7acee0",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-02-12T12:32:02+00:00"
+            "time": "2022-02-13T01:20:11+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -4653,12 +4653,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
