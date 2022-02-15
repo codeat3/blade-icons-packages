@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "02c6811c575ae74238b9abd4d09373d9c1c21a7f"
+                "reference": "1dc4cbfa543fe27ade83b1072aed02d13e43b0ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/02c6811c575ae74238b9abd4d09373d9c1c21a7f",
-                "reference": "02c6811c575ae74238b9abd4d09373d9c1c21a7f",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/1dc4cbfa543fe27ade83b1072aed02d13e43b0ea",
+                "reference": "1dc4cbfa543fe27ade83b1072aed02d13e43b0ea",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-02-14T12:33:47+00:00"
+            "time": "2022-02-15T01:23:35+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2001,16 +2001,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.10.2",
+            "version": "v2.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "2c4c29dc26b9bf248543ef05c1f820186184baa1"
+                "reference": "f7150a3d0386c1d41f51b73a161e3d3e24db5812"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/2c4c29dc26b9bf248543ef05c1f820186184baa1",
-                "reference": "2c4c29dc26b9bf248543ef05c1f820186184baa1",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/f7150a3d0386c1d41f51b73a161e3d3e24db5812",
+                "reference": "f7150a3d0386c1d41f51b73a161e3d3e24db5812",
                 "shasum": ""
             },
             "require": {
@@ -2062,7 +2062,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.10.2"
+                "source": "https://github.com/livewire/livewire/tree/v2.10.3"
             },
             "funding": [
                 {
@@ -2070,7 +2070,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-11T21:55:19+00:00"
+            "time": "2022-02-14T16:44:21+00:00"
         },
         {
             "name": "monolog/monolog",
