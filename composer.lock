@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "3ba0da4c2a12b6b8e34ffbd8e40a9184e67d9bb0"
+                "reference": "ed2e9432ff1ffc44c2740431d6a4ac61974309fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/3ba0da4c2a12b6b8e34ffbd8e40a9184e67d9bb0",
-                "reference": "3ba0da4c2a12b6b8e34ffbd8e40a9184e67d9bb0",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ed2e9432ff1ffc44c2740431d6a4ac61974309fc",
+                "reference": "ed2e9432ff1ffc44c2740431d6a4ac61974309fc",
                 "shasum": ""
             },
             "require": {
@@ -236,7 +236,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-02-20T01:22:46+00:00"
+            "time": "2022-02-20T12:32:49+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -690,16 +690,16 @@
         },
         {
             "name": "fruitcake/php-cors",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruitcake/php-cors.git",
-                "reference": "07611b4d603a72f097aeeeeb1e67d5ae7a6d0798"
+                "reference": "507d1de41251b5c22eaf361df3e362b84da8d83e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruitcake/php-cors/zipball/07611b4d603a72f097aeeeeb1e67d5ae7a6d0798",
-                "reference": "07611b4d603a72f097aeeeeb1e67d5ae7a6d0798",
+                "url": "https://api.github.com/repos/fruitcake/php-cors/zipball/507d1de41251b5c22eaf361df3e362b84da8d83e",
+                "reference": "507d1de41251b5c22eaf361df3e362b84da8d83e",
                 "shasum": ""
             },
             "require": {
@@ -714,7 +714,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0-dev"
+                    "dev-main": "1.1-dev"
                 }
             },
             "autoload": {
@@ -741,7 +741,7 @@
             ],
             "support": {
                 "issues": "https://github.com/fruitcake/php-cors/issues",
-                "source": "https://github.com/fruitcake/php-cors/tree/v1.0.1"
+                "source": "https://github.com/fruitcake/php-cors/tree/v1.1.0"
             },
             "funding": [
                 {
@@ -753,7 +753,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-19T16:21:54+00:00"
+            "time": "2022-02-20T11:19:41+00:00"
         },
         {
             "name": "graham-campbell/result-type",
