@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "4bcab83bf9d97513ab2d3eb4551f696d3764da79"
+                "reference": "6c4e44bbae223468d2ccb4bd1458d43e287c834b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/4bcab83bf9d97513ab2d3eb4551f696d3764da79",
-                "reference": "4bcab83bf9d97513ab2d3eb4551f696d3764da79",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/6c4e44bbae223468d2ccb4bd1458d43e287c834b",
+                "reference": "6c4e44bbae223468d2ccb4bd1458d43e287c834b",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-02-25T01:21:56+00:00"
+            "time": "2022-02-25T12:34:48+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -4234,12 +4234,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5283,12 +5283,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\String\\": ""
-                },
                 "files": [
                     "Resources/functions.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
                 "exclude-from-classmap": [
                     "/Tests/"
                 ]
