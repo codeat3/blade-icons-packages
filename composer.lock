@@ -261,12 +261,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "d53bfba0b16d9f3c256bf3c6e924945126358f3d"
+                "reference": "a5488d9887058e2f34e01fb40c6765fbb2459243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/d53bfba0b16d9f3c256bf3c6e924945126358f3d",
-                "reference": "d53bfba0b16d9f3c256bf3c6e924945126358f3d",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/a5488d9887058e2f34e01fb40c6765fbb2459243",
+                "reference": "a5488d9887058e2f34e01fb40c6765fbb2459243",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-02-27T01:21:58+00:00"
+            "time": "2022-02-27T12:33:28+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2496,12 +2496,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Opis\\Closure\\": "src/"
-                },
                 "files": [
                     "functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Opis\\Closure\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
