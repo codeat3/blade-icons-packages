@@ -44,9 +44,9 @@ class ShowPackages extends Component
             'packages' => BladeIcon::query()
                 ->when(
                     $this->search,
-                    fn ($builder) => $builder->where('name', 'LIKE', '%'.$this->search.'%')
-                                        ->orWhere('package', 'LIKE', '%'.$this->search.'%')
-                                        ->orWhere('maintainers', 'LIKE', '%'.$this->search.'%')
+                    fn ($builder) => $builder->where('name', 'LIKE', '%' . $this->search . '%')
+                                        ->orWhere('package', 'LIKE', '%' . $this->search . '%')
+                                        ->orWhere('maintainers', 'LIKE', '%' . $this->search . '%')
                 )
                 ->when(
                     $this->listed_on_readme,

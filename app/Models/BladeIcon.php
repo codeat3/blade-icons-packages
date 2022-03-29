@@ -40,12 +40,12 @@ class BladeIcon extends Model
 
     public function getPackageUrlAttribute()
     {
-        return 'https://github.com/'.$this->package;
+        return 'https://github.com/' . $this->package;
     }
 
     public function getPackagistStatsUrlAttribute()
     {
-        return 'https://packagist.org/packages/'.$this->package.'/stats';
+        return 'https://packagist.org/packages/' . $this->package . '/stats';
     }
 
     public function getLatestVersionAttribute()
@@ -67,7 +67,7 @@ class BladeIcon extends Model
     private function getYamlData()
     {
         if (empty($this->yamlData)) {
-            $collectionPath = base_path().'/'.self::YAML_FILE_PATH;
+            $collectionPath = base_path() . '/' . self::YAML_FILE_PATH;
             $this->yamlData = (new Yaml())->parse(file_get_contents($collectionPath));
         }
 
