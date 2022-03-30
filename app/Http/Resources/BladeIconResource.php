@@ -16,6 +16,7 @@ class BladeIconResource extends JsonResource
     {
         return [
             'package' => $this->package,
+            'package_url' => $this->package_url,
             'name' => $this->name,
             'latest_version' => $this->latest_version,
             'downloads' => $this->downloads,
