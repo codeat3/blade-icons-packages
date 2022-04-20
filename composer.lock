@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "69b12ea6982b686515d96f09e283a99261a069dd"
+                "reference": "af628e524b67500300b3b4f221a9bd18c4871e01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/69b12ea6982b686515d96f09e283a99261a069dd",
-                "reference": "69b12ea6982b686515d96f09e283a99261a069dd",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/af628e524b67500300b3b4f221a9bd18c4871e01",
+                "reference": "af628e524b67500300b3b4f221a9bd18c4871e01",
                 "shasum": ""
             },
             "require": {
@@ -236,7 +236,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-04-19T12:52:37+00:00"
+            "time": "2022-04-20T02:09:23+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1230,16 +1230,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9f468689964ac80b674a2fe71a56baa7e9e20493"
+                "reference": "4d5a07640891b772188d7737348886a0222737d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9f468689964ac80b674a2fe71a56baa7e9e20493",
-                "reference": "9f468689964ac80b674a2fe71a56baa7e9e20493",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4d5a07640891b772188d7737348886a0222737d8",
+                "reference": "4d5a07640891b772188d7737348886a0222737d8",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1405,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-04-12T15:43:03+00:00"
+            "time": "2022-04-19T15:01:23+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -6032,16 +6032,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.13.9",
+            "version": "v1.13.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "7bb294fe99fc42c3b1bee83fb667cd7698b3c385"
+                "reference": "cbf55e1a392724313f7726c38578b5e008df6a0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/7bb294fe99fc42c3b1bee83fb667cd7698b3c385",
-                "reference": "7bb294fe99fc42c3b1bee83fb667cd7698b3c385",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/cbf55e1a392724313f7726c38578b5e008df6a0f",
+                "reference": "cbf55e1a392724313f7726c38578b5e008df6a0f",
                 "shasum": ""
             },
             "require": {
@@ -6088,7 +6088,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2022-04-04T15:21:51+00:00"
+            "time": "2022-04-14T18:29:22+00:00"
         },
         {
             "name": "mockery/mockery",
