@@ -9,10 +9,8 @@ class BladeIconController extends Controller
 {
     public function __invoke()
     {
-        $packages = BladeIcon::all();
-
         return view('list', [
-            'packages' => $packages,
+            'packages' => BladeIcon::all(),
         ]);
     }
 }
