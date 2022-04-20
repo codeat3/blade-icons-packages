@@ -11,8 +11,10 @@ class BladeIconApiController extends Controller
 {
     public function __invoke()
     {
-        return BladeIconResource::collection(BladeIcon::get()->filter(function ($row) {
-            return Str::contains($row->package, 'codeat3');
-        }))->sortByDesc('downloads');
+        return BladeIconResource::collection(
+            BladeIcon::get()->filter(
+                fn ($row) => Str::contains($row->package, 'codeat3')
+            )
+        )->sortByDesc('downloads');
     }
 }

@@ -81,16 +81,12 @@ class BladeIcon extends Model
 
     public function getRows()
     {
-        $yamlData = $this->getYamlData();
-        $packages = collect(Arr::get($yamlData, 'packages', []))
+        return collect(Arr::get($this->getYamlData(), 'packages', []))
             ->map(function ($values) {
                 $values['maintainers'] = json_encode(Arr::get($values, 'maintainers'));
                 $values['versions'] = json_encode(Arr::get($values, 'versions'));
                 $values['original_package'] = json_encode(Arr::get($values, 'original_package'));
-                // dd($values);
                 return $values;
             })->toArray();
-
-        return $packages;
     }
 }
