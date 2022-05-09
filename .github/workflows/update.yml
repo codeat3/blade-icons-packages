@@ -1,4 +1,4 @@
-name: Deploy from event
+name: Update the repo with the latest commit version
 
 on:
   repository_dispatch:
