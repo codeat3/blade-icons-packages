@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "c5c5d283593bfcd59d35f657e1a526683dd5accb"
+                "reference": "346f8a94f8d1cd29201e63fcdbbb660dc2421569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/c5c5d283593bfcd59d35f657e1a526683dd5accb",
-                "reference": "c5c5d283593bfcd59d35f657e1a526683dd5accb",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/346f8a94f8d1cd29201e63fcdbbb660dc2421569",
+                "reference": "346f8a94f8d1cd29201e63fcdbbb660dc2421569",
                 "shasum": ""
             },
             "require": {
@@ -236,7 +236,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-05-26T02:11:52+00:00"
+            "time": "2022-05-26T12:47:24+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -8394,5 +8394,5 @@
         "ext-pdo_sqlite": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
