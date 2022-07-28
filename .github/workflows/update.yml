@@ -1,6 +1,9 @@
 name: Update the repo with the latest commit version
 
 on:
+  push:
+    branches:
+      - main
   repository_dispatch:
     types: [collection-updated]
 
