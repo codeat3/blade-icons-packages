@@ -2,16 +2,21 @@
 
 namespace App\Http\Livewire;
 
-use App\Models\BladeIcon;
 use Livewire\Component;
+use App\Models\BladeIcon;
+use Illuminate\Support\Str;
+use Asantibanez\LivewireCharts\Facades\LivewireCharts;
 
 class ShowPackages extends Component
 {
+
     public $search;
 
     public $sort_by = 'downloads';
 
     public $sort_order = 'desc';
+
+    public $graph_type = 'downloads';
 
     public $listed_on_readme;
 
@@ -38,33 +43,64 @@ class ShowPackages extends Component
     {
         $this->validate();
 
+        $packages = BladeIcon::query()
+            ->when(
+                $this->search,
+                fn ($builder) => $builder->where('name', 'LIKE', '%' . $this->search . '%')
+                    ->orWhere('package', 'LIKE', '%' . $this->search . '%')
+                    ->orWhere('maintainers', 'LIKE', '%' . $this->search . '%')
+            )
+            ->when(
+                $this->listed_on_readme,
+                function ($builder, $listed_on_readme) {
+                    if ($listed_on_readme === 'yes') {
+                        $builder->where('listed_on_blade_icon_readme', '=', true);
+                    }
+                    if ($listed_on_readme === 'no') {
+                        $builder->where('listed_on_blade_icon_readme', '=', false);
+                    }
+                }
+            )
+            ->when(
+                $this->sort_by && $this->sort_order,
+                fn ($builder) => $builder->orderBy($this->sort_by, $this->sort_order),
+                fn ($builder) => $builder->orderBy('name', 'ASC')
+            )
+            ->get();
+
+
+        $pieChartModel = $packages
+            ->map(function ($item) {
+                $item->org = Str::before($item->package, '/');
+                $item->count = 1;
+                return $item;
+            })
+            ->groupBy('org')
+            ->sortByDesc(function ($orgs, $key) {
+                return $orgs->sum($this->graph_type);
+            })
+            ->reduce(
+                function ($pieChartModel, $data) {
+
+                    $type = $data->first()->org;
+                    $value = $data->sum($this->graph_type);
+                    return $pieChartModel->addSlice($type, $value, '#4F46E5');
+                },
+                LivewireCharts::pieChartModel()
+                    ->setTitle(Str::title($this->graph_type) . ' by org')
+                    ->setAnimated(true)
+                    ->withoutLegend()
+                    ->legendPositionBottom()
+                    ->legendHorizontallyAlignedCenter()
+                    ->setDataLabelsEnabled(true)
+                    ->setColors(['#9F1239', '#86198F', '#5B21B6', '#1E40AF', '#155E75'])
+            );
+
         return view('livewire.show-packages', [
+            'pieChartModel' => $pieChartModel,
             'updated_at' => (new BladeIcon())->getUpdatedAtTime(),
             'total_packages' => BladeIcon::count(),
-            'packages' => BladeIcon::query()
-                ->when(
-                    $this->search,
-                    fn ($builder) => $builder->where('name', 'LIKE', '%' . $this->search . '%')
-                                        ->orWhere('package', 'LIKE', '%' . $this->search . '%')
-                                        ->orWhere('maintainers', 'LIKE', '%' . $this->search . '%')
-                )
-                ->when(
-                    $this->listed_on_readme,
-                    function ($builder, $listed_on_readme) {
-                        if ($listed_on_readme === 'yes') {
-                            $builder->where('listed_on_blade_icon_readme', '=', true);
-                        }
-                        if ($listed_on_readme === 'no') {
-                            $builder->where('listed_on_blade_icon_readme', '=', false);
-                        }
-                    }
-                )
-                ->when(
-                    $this->sort_by && $this->sort_order,
-                    fn ($builder) => $builder->orderBy($this->sort_by, $this->sort_order),
-                    fn ($builder) => $builder->orderBy('name', 'ASC')
-                )
-                ->get(),
+            'packages' => $packages,
         ]);
     }
 }
