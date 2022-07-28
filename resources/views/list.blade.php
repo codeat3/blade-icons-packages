@@ -19,4 +19,6 @@
     </div>
     <x-footer />
     @livewireScripts
+    @livewireChartsScripts
+    <script src="//unpkg.com/alpinejs" defer></script>
 </body>
