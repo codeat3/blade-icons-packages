@@ -69,7 +69,8 @@ class ShowPackages extends Component
             ->get();
 
 
-        $pieChartModel = $packages
+        $pieChartModel = BladeIcon::query()
+            ->get()
             ->map(function ($item) {
                 $item->org = Str::before($item->package, '/');
                 $item->count = 1;
