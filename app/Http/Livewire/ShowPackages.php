@@ -34,12 +34,12 @@ class ShowPackages extends Component
         return $this->rules;
     }
 
-    public function updated($propertyName)
+    public function updated($propertyName): void
     {
         $this->validateOnly($propertyName, $this->rules());
     }
 
-    public function render()
+    public function render(): \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory
     {
         $this->validate();
 
