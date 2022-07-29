@@ -13,7 +13,7 @@ class Package extends Component
         $this->package = $package;
     }
 
-    public function render()
+    public function render(): \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory
     {
         return view('components.package');
     }

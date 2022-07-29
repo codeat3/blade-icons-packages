@@ -8,6 +8,14 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Symfony\Component\Yaml\Yaml;
 
+/**
+ * App\Models\BladeIcon
+ *
+ * @property array $maintainers
+ * @property string $maintainer
+ * @property string $package
+ * @property array $versions
+ */
 class BladeIcon extends Model
 {
     use \Sushi\Sushi;
@@ -23,27 +31,27 @@ class BladeIcon extends Model
 
     protected $yamlData;
 
-    public function getMaintainerAttribute()
+    public function getMaintainerAttribute(): string
     {
         return Arr::first($this->maintainers);
     }
 
-    public function getMaintainerNameAttribute()
+    public function getMaintainerNameAttribute(): string
     {
         return Arr::get($this->maintainer, 'name');
     }
 
-    public function getMaintainerAvatarAttribute()
+    public function getMaintainerAvatarAttribute(): string
     {
         return Arr::get($this->maintainer, 'avatar_url');
     }
 
-    public function getPackageUrlAttribute()
+    public function getPackageUrlAttribute(): string
     {
         return 'https://github.com/' . $this->package;
     }
 
-    public function getPackagistStatsUrlAttribute()
+    public function getPackagistStatsUrlAttribute(): string
     {
         return 'https://packagist.org/packages/' . $this->package . '/stats';
     }
@@ -74,12 +82,12 @@ class BladeIcon extends Model
         return $this->yamlData;
     }
 
-    public function getUpdatedAtTime()
+    public function getUpdatedAtTime(): Carbon
     {
         return Carbon::parse(Arr::get($this->getYamlData(), 'updated_at'));
     }
 
-    public function getRows()
+    public function getRows(): array
     {
         return collect(Arr::get($this->getYamlData(), 'packages', []))
             ->map(function ($values) {

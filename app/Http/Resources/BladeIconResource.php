@@ -4,6 +4,18 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
+/**
+ * App\Http\Resources\BladeIconResource
+ *
+ * @property string $package
+ * @property string $name
+ * @property string $package_url
+ * @property mixed $original_package
+ * @property string $nam
+ * @property string $latest_version
+ * @property int $downloads
+ * @property int $stars
+ */
 class BladeIconResource extends JsonResource
 {
     /**
