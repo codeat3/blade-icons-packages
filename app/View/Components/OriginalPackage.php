@@ -7,6 +7,7 @@ use Illuminate\View\Component;
 class OriginalPackage extends Component
 {
     public $package;
+
     /**
      * Create a new component instance.
      *

@@ -2,14 +2,13 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
 use App\Models\BladeIcon;
-use Illuminate\Support\Str;
 use Asantibanez\LivewireCharts\Facades\LivewireCharts;
+use Illuminate\Support\Str;
+use Livewire\Component;
 
 class ShowPackages extends Component
 {
-
     public $search;
 
     public $sort_by = 'downloads';
@@ -68,12 +67,12 @@ class ShowPackages extends Component
             )
             ->get();
 
-
         $pieChartModel = BladeIcon::query()
             ->get()
             ->map(function ($item) {
                 $item->org = Str::before($item->package, '/');
                 $item->count = 1;
+
                 return $item;
             })
             ->groupBy('org')
@@ -82,9 +81,9 @@ class ShowPackages extends Component
             })
             ->reduce(
                 function ($pieChartModel, $data) {
-
                     $type = $data->first()->org;
                     $value = $data->sum($this->graph_type);
+
                     return $pieChartModel->addSlice($type, $value, '#4F46E5');
                 },
                 LivewireCharts::pieChartModel()

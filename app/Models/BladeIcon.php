@@ -94,6 +94,7 @@ class BladeIcon extends Model
                 $values['maintainers'] = json_encode(Arr::get($values, 'maintainers'));
                 $values['versions'] = json_encode(Arr::get($values, 'versions'));
                 $values['original_package'] = json_encode(Arr::get($values, 'original_package'));
+
                 return $values;
             })->toArray();
     }
