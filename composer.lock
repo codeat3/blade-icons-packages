@@ -267,12 +267,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "ba1688e98dc61b86e204858b8a1850d21474bcbb"
+                "reference": "5b171819753eadc08ffad74dcfd56f318d2901be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ba1688e98dc61b86e204858b8a1850d21474bcbb",
-                "reference": "ba1688e98dc61b86e204858b8a1850d21474bcbb",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/5b171819753eadc08ffad74dcfd56f318d2901be",
+                "reference": "5b171819753eadc08ffad74dcfd56f318d2901be",
                 "shasum": ""
             },
             "require": {
@@ -298,7 +298,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-08-01T02:32:14+00:00"
+            "time": "2022-08-01T12:50:51+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -2976,16 +2976,16 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v1.13.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "132a24bd3e8c559e7f14fa14ba1b83772a0f97f8"
+                "reference": "10065367baccf13b6e30f5e9246fa4f63a79eb1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/132a24bd3e8c559e7f14fa14ba1b83772a0f97f8",
-                "reference": "132a24bd3e8c559e7f14fa14ba1b83772a0f97f8",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/10065367baccf13b6e30f5e9246fa4f63a79eb1d",
+                "reference": "10065367baccf13b6e30f5e9246fa4f63a79eb1d",
                 "shasum": ""
             },
             "require": {
@@ -2997,7 +2997,7 @@
                 "ergebnis/phpstan-rules": "^1.0.",
                 "illuminate/console": "^8.0|^9.0",
                 "illuminate/support": "^8.0|^9.0",
-                "laravel/pint": "^0.2.0",
+                "laravel/pint": "^1.0.0",
                 "pestphp/pest": "^1.21.0",
                 "pestphp/pest-plugin-mock": "^1.0",
                 "phpstan/phpstan": "^1.4.6",
@@ -3042,7 +3042,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.13.0"
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.14.0"
             },
             "funding": [
                 {
@@ -3058,7 +3058,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-01T15:06:55+00:00"
+            "time": "2022-08-01T11:03:24+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
@@ -3895,25 +3895,27 @@
         },
         {
             "name": "spatie/packagist-api",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/packagist-api.git",
-                "reference": "3348caf7975d052b22124e246daa3e2a3802a802"
+                "reference": "4d125fec1c937ba8485a5b7e026532508314fc32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/packagist-api/zipball/3348caf7975d052b22124e246daa3e2a3802a802",
-                "reference": "3348caf7975d052b22124e246daa3e2a3802a802",
+                "url": "https://api.github.com/repos/spatie/packagist-api/zipball/4d125fec1c937ba8485a5b7e026532508314fc32",
+                "reference": "4d125fec1c937ba8485a5b7e026532508314fc32",
                 "shasum": ""
             },
             "require": {
+                "composer/semver": "^1.0|^2.0|^3.0",
                 "ext-json": "*",
-                "guzzlehttp/guzzle": "^6.5|^7.0",
-                "php": "^7.2|^8.0"
+                "guzzlehttp/guzzle": "^7.0",
+                "php": "^7.3|^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5|^9.0"
+                "phpunit/phpunit": "^9.4",
+                "spatie/phpunit-snapshot-assertions": "^4.2"
             },
             "type": "library",
             "autoload": {
@@ -3952,16 +3954,19 @@
                 "spatie"
             ],
             "support": {
-                "issues": "https://github.com/spatie/packagist-api/issues",
-                "source": "https://github.com/spatie/packagist-api/tree/2.0.2"
+                "source": "https://github.com/spatie/packagist-api/tree/2.1.0"
             },
             "funding": [
                 {
                     "url": "https://spatie.be/open-source/support-us",
                     "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
                 }
             ],
-            "time": "2020-12-01T14:09:20+00:00"
+            "time": "2022-08-01T10:13:17+00:00"
         },
         {
             "name": "symfony/console",
