@@ -263,12 +263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "00a4edded130c51aa2221dfa07c3a491133e6a20"
+                "reference": "e9dcb5d5b80dc3980ac4e96e26f3122f59faf865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/00a4edded130c51aa2221dfa07c3a491133e6a20",
-                "reference": "00a4edded130c51aa2221dfa07c3a491133e6a20",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e9dcb5d5b80dc3980ac4e96e26f3122f59faf865",
+                "reference": "e9dcb5d5b80dc3980ac4e96e26f3122f59faf865",
                 "shasum": ""
             },
             "require": {
@@ -294,7 +294,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-10-28T20:14:02+00:00"
+            "time": "2022-10-29T01:00:29+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -2988,16 +2988,16 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v1.14.1",
+            "version": "v1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "86fc30eace93b9b6d4c844ba6de76db84184e01b"
+                "reference": "9a8218511eb1a0965629ff820dda25985440aefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/86fc30eace93b9b6d4c844ba6de76db84184e01b",
-                "reference": "86fc30eace93b9b6d4c844ba6de76db84184e01b",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/9a8218511eb1a0965629ff820dda25985440aefc",
+                "reference": "9a8218511eb1a0965629ff820dda25985440aefc",
                 "shasum": ""
             },
             "require": {
@@ -3054,7 +3054,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.14.1"
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.14.2"
             },
             "funding": [
                 {
@@ -3070,7 +3070,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-17T15:20:29+00:00"
+            "time": "2022-10-28T22:51:32+00:00"
         },
         {
             "name": "phpoption/phpoption",
