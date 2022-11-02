@@ -3,8 +3,6 @@
 namespace App\Http\Livewire;
 
 use App\Models\BladeIcon;
-use Asantibanez\LivewireCharts\Facades\LivewireCharts;
-use Illuminate\Support\Str;
 use Livewire\Component;
 
 class ShowPackages extends Component
@@ -67,37 +65,7 @@ class ShowPackages extends Component
             )
             ->get();
 
-        $pieChartModel = BladeIcon::query()
-            ->get()
-            ->map(function ($item) {
-                $item->org = Str::before($item->package, '/');
-                $item->count = 1;
-
-                return $item;
-            })
-            ->groupBy('org')
-            ->sortByDesc(function ($orgs, $key) {
-                return $orgs->sum($this->graph_type);
-            })
-            ->reduce(
-                function ($pieChartModel, $data) {
-                    $type = $data->first()->org;
-                    $value = $data->sum($this->graph_type);
-
-                    return $pieChartModel->addSlice($type, $value, '#4F46E5');
-                },
-                LivewireCharts::pieChartModel()
-                    ->setTitle(Str::title($this->graph_type) . ' by org')
-                    ->setAnimated(true)
-                    ->withoutLegend()
-                    ->legendPositionBottom()
-                    ->legendHorizontallyAlignedCenter()
-                    ->setDataLabelsEnabled(true)
-                    ->setColors(['#9F1239', '#86198F', '#5B21B6', '#1E40AF', '#155E75'])
-            );
-
         return view('livewire.show-packages', [
-            'pieChartModel' => $pieChartModel,
             'updated_at' => (new BladeIcon())->getUpdatedAtTime(),
             'total_packages' => BladeIcon::count(),
             'packages' => $packages,
