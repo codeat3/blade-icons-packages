@@ -1,45 +1,4 @@
 <div>
-    <div class="my-5 md:mt-0 md:col-span-2">
-        <div class="border-2 border-gray-100 shadow overflow-hidden sm:rounded-md">
-            <div class="px-4 py-5 bg-white sm:p-6 grid gap-4 grid-cols-3">
-                <div class="col-span-1">
-                    <fieldset>
-                        <div>
-                            <legend class="text-base font-medium text-gray-900">Some Stats</legend>
-                            <p class="text-sm text-gray-500">
-                            </p>
-                        </div>
-                        <div class="mt-4 space-y-1 text-gray-600">
-                            <div class="flex mr-4">
-                                <input id="graph_type_downloads" wire:model="graph_type" name="graph_type" type="radio" value="downloads" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                <label for="graph_type_downloads" class="ml-3 block text-sm font-medium text-gray-700">
-                                    Downloads
-                                </label>
-                            </div>
-                            <div class="flex mr-4">
-                                <input id="graph_type_stars" wire:model="graph_type" name="graph_type" type="radio" value="stars" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                <label for="graph_type_stars" class="ml-3 block text-sm font-medium text-gray-700">
-                                    Stars
-                                </label>
-                            </div>
-                            <div class="flex mr-4">
-                                <input id="graph_type_count" wire:model="graph_type" name="graph_type" type="radio" value="count" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                <label for="graph_type_count" class="ml-3 block text-sm font-medium text-gray-700">
-                                    Count
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="h-64">
-                    <livewire:livewire-pie-chart
-                        key="{{ $pieChartModel->reactiveKey() }}"
-                        :pie-chart-model="$pieChartModel"
-                    />
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Search:START -->
     <div class="my-5 md:mt-0 md:col-span-2">
         <form action="#" method="POST">
