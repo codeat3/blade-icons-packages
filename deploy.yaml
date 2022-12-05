@@ -30,7 +30,6 @@ tasks:
     - artisan:down
     - npm:install
     - npm:run:prod
-    - artisan:responsecache:clear
     - artisan:up
     - deploy:publish
   npm:run:prod:
