@@ -11,6 +11,7 @@
         "calebporzio/sushi": "^2.3",
         "codeat3/blade-icons-packages-collection": "dev-main",
         "codeat3/phpcs-styles": "^1.2",
+        "deployer/deployer": "v8.x-dev",
         "fruitcake/laravel-cors": "^3.0",
         "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "^9.0",
