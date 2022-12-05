@@ -1,0 +1,39 @@
+import:
+    - recipe/laravel.php
+
+config:
+  application: 'blade-icons-packages.codeat3.co'
+  repository: 'git@github.com:codeat3/blade-icons-packages.codeat3.co.git'
+  php_fpm_version: '8.1'
+  remote_user: forge
+  base_deploy_path: '/home/forge'
+
+hosts:
+  'production':
+    branch: 'main'
+    hostname: '5.161.93.164'
+    identity_file: ~/.ssh/id_forge
+    deploy_path: '{{base_deploy_path}}/blade-icons-packages.codeat3.co'
+  'staging':
+    branch: 'staging'
+    hostname: '5.161.93.164'
+    identity_file: ~/.ssh/id_forge
+    deploy_path: '{{base_deploy_path}}/staging.blade-icons-packages.codeat3.co'
+
+tasks:
+  deploy:
+    - deploy:prepare
+    - deploy:vendors
+    - artisan:storage:link
+    - artisan:optimize
+    - artisan:down
+    - npm:install
+    - npm:run:prod
+    - artisan:responsecache:clear
+    - artisan:up
+    - deploy:publish
+  npm:run:prod:
+      - run: 'cd {{release_path}} && npm run build'
+
+after:
+  deploy:failed: deploy:unlock
