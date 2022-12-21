@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "a573de1f649aee979eb50653de1ce50622c6c878"
+                "reference": "fc851940adbd048fe83c10f0762f17b550e47896"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/a573de1f649aee979eb50653de1ce50622c6c878",
-                "reference": "a573de1f649aee979eb50653de1ce50622c6c878",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/fc851940adbd048fe83c10f0762f17b550e47896",
+                "reference": "fc851940adbd048fe83c10f0762f17b550e47896",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-12-21T00:46:56+00:00"
+            "time": "2022-12-21T20:10:23+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1894,16 +1894,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.45.0",
+            "version": "v9.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f2c51fdfcb0c50c19cdc49c2e82690ad1a21eafe"
+                "reference": "faeb20d3fc61b69790068161ab42bcf2d5faccbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f2c51fdfcb0c50c19cdc49c2e82690ad1a21eafe",
-                "reference": "f2c51fdfcb0c50c19cdc49c2e82690ad1a21eafe",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/faeb20d3fc61b69790068161ab42bcf2d5faccbc",
+                "reference": "faeb20d3fc61b69790068161ab42bcf2d5faccbc",
                 "shasum": ""
             },
             "require": {
@@ -2076,7 +2076,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-12-20T14:16:06+00:00"
+            "time": "2022-12-21T19:37:46+00:00"
         },
         {
             "name": "laravel/sanctum",
