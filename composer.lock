@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "9c4372cafa8ddcd32d332db398fdc46ac4b750b2"
+                "reference": "e7bbfcc6033281e1409b62647377905851fa3c4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/9c4372cafa8ddcd32d332db398fdc46ac4b750b2",
-                "reference": "9c4372cafa8ddcd32d332db398fdc46ac4b750b2",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e7bbfcc6033281e1409b62647377905851fa3c4d",
+                "reference": "e7bbfcc6033281e1409b62647377905851fa3c4d",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2022-12-23T20:10:27+00:00"
+            "time": "2022-12-24T00:43:39+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -8663,16 +8663,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v6.3.1",
+            "version": "v6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "0f6349c3ed5dd28467087b08fb59384bb458a22b"
+                "reference": "83699b231e7f277bfa2e823788973bf4082f019a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/0f6349c3ed5dd28467087b08fb59384bb458a22b",
-                "reference": "0f6349c3ed5dd28467087b08fb59384bb458a22b",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/83699b231e7f277bfa2e823788973bf4082f019a",
+                "reference": "83699b231e7f277bfa2e823788973bf4082f019a",
                 "shasum": ""
             },
             "require": {
@@ -8747,7 +8747,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-09-29T12:29:49+00:00"
+            "time": "2022-12-23T21:36:49+00:00"
         },
         {
             "name": "openlss/lib-array2xml",
