@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "8b97f4ddbed7419689d5493a27a2f2264409c6cd"
+                "reference": "be8cd95e102c17a0ec58dd4b92ed2dc64adf7fd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/8b97f4ddbed7419689d5493a27a2f2264409c6cd",
-                "reference": "8b97f4ddbed7419689d5493a27a2f2264409c6cd",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/be8cd95e102c17a0ec58dd4b92ed2dc64adf7fd0",
+                "reference": "be8cd95e102c17a0ec58dd4b92ed2dc64adf7fd0",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-01-02T00:50:27+00:00"
+            "time": "2023-01-02T20:09:58+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -982,16 +982,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "5f35e41eba05fdfbabd95d72f83795c835fb7ed2"
+                "reference": "b531a2311709443320c786feb4519cfaf94af796"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/5f35e41eba05fdfbabd95d72f83795c835fb7ed2",
-                "reference": "5f35e41eba05fdfbabd95d72f83795c835fb7ed2",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/b531a2311709443320c786feb4519cfaf94af796",
+                "reference": "b531a2311709443320c786feb4519cfaf94af796",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +1000,6 @@
                 "symfony/polyfill-intl-idn": "^1.15"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^8.5.8|^9.3.3",
                 "vimeo/psalm": "^4"
             },
@@ -1038,7 +1037,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/3.2.4"
+                "source": "https://github.com/egulias/EmailValidator/tree/3.2.5"
             },
             "funding": [
                 {
@@ -1046,7 +1045,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-30T14:09:25+00:00"
+            "time": "2023-01-02T17:26:14+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -2912,16 +2911,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.64.0",
+            "version": "2.64.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "889546413c97de2d05063b8cb7b193c2531ea211"
+                "reference": "f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/889546413c97de2d05063b8cb7b193c2531ea211",
-                "reference": "889546413c97de2d05063b8cb7b193c2531ea211",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c",
+                "reference": "f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c",
                 "shasum": ""
             },
             "require": {
@@ -3010,7 +3009,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-26T17:36:00+00:00"
+            "time": "2023-01-01T23:17:36+00:00"
         },
         {
             "name": "nette/schema",
