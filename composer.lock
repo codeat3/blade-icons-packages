@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "23ee760cb4d74e60a287b45d8c5c723f2d83224e"
+                "reference": "cb5efe4614185af1ab9589eec345688187e31c7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/23ee760cb4d74e60a287b45d8c5c723f2d83224e",
-                "reference": "23ee760cb4d74e60a287b45d8c5c723f2d83224e",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/cb5efe4614185af1ab9589eec345688187e31c7a",
+                "reference": "cb5efe4614185af1ab9589eec345688187e31c7a",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-01-08T20:09:59+00:00"
+            "time": "2023-01-09T00:51:25+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -492,12 +492,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "2b682f0ff93a18a7cb75c266e9ad682cbbfd4161"
+                "reference": "eb12ae1e5268530ae6427c1d66e4ff3862e2daf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/2b682f0ff93a18a7cb75c266e9ad682cbbfd4161",
-                "reference": "2b682f0ff93a18a7cb75c266e9ad682cbbfd4161",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/eb12ae1e5268530ae6427c1d66e4ff3862e2daf7",
+                "reference": "eb12ae1e5268530ae6427c1d66e4ff3862e2daf7",
                 "shasum": ""
             },
             "require": {
@@ -554,7 +554,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-15T07:14:03+00:00"
+            "time": "2023-01-08T20:33:08+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -9134,16 +9134,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.9.7",
+            "version": "1.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0501435cd342eac7664bd62155b1ef907fc60b6f"
+                "reference": "45411d15bf85a33b4a8ee9b75a6e82998c9adb97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0501435cd342eac7664bd62155b1ef907fc60b6f",
-                "reference": "0501435cd342eac7664bd62155b1ef907fc60b6f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/45411d15bf85a33b4a8ee9b75a6e82998c9adb97",
+                "reference": "45411d15bf85a33b4a8ee9b75a6e82998c9adb97",
                 "shasum": ""
             },
             "require": {
@@ -9173,7 +9173,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.9.7"
+                "source": "https://github.com/phpstan/phpstan/tree/1.9.8"
             },
             "funding": [
                 {
@@ -9189,7 +9189,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-04T21:59:57+00:00"
+            "time": "2023-01-08T21:26:18+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
