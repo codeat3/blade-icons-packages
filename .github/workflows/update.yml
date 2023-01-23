@@ -43,5 +43,5 @@ jobs:
 
       - uses: deployphp/action@v1
         with:
-          dep: deploy
+          dep: deploy production
           private-key: ${{ secrets.FORGE_PKEY }}
