@@ -41,8 +41,7 @@ jobs:
         with:
           commit_message: Updated collection
 
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      - uses: deployphp/action@v1
         with:
-            heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-            heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-            heroku_email: ${{ secrets.HEROKU_USER_EMAIL_ADDRESS }}
+          dep: deploy
+          private-key: ${{ secrets.FORGE_PKEY }}
