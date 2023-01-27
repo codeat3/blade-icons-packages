@@ -5,7 +5,7 @@ import:
 config:
   application: 'blade-icons-packages.codeat3.co'
   repository: 'git@github.com:codeat3/blade-icons-packages.git'
-  php_fpm_version: '8.1'
+  php_fpm_version: '8.2'
   remote_user: forge
   base_deploy_path: '/home/forge'
 

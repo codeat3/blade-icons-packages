@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a51d5dff6ff505c1b3f54ab9b8b7622",
+    "content-hash": "c374a81d5acb75ab724e0de4bd4c7c77",
     "packages": [
         {
             "name": "blade-ui-kit/blade-ui-kit",
@@ -235,20 +235,21 @@
         },
         {
             "name": "codeat3/phpcs-styles",
-            "version": "1.2.1",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/phpcs-styles.git",
-                "reference": "3cdc7a001e96b6218854d7fab097a4e7b71017f0"
+                "reference": "0d5d21d61c5318c5265ab5dd61473ccd50a4b99b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/phpcs-styles/zipball/3cdc7a001e96b6218854d7fab097a4e7b71017f0",
-                "reference": "3cdc7a001e96b6218854d7fab097a4e7b71017f0",
+                "url": "https://api.github.com/repos/codeat3/phpcs-styles/zipball/0d5d21d61c5318c5265ab5dd61473ccd50a4b99b",
+                "reference": "0d5d21d61c5318c5265ab5dd61473ccd50a4b99b",
                 "shasum": ""
             },
             "require": {
-                "friendsofphp/php-cs-fixer": "^3.0"
+                "friendsofphp/php-cs-fixer": "^3.13",
+                "php": "^8.2"
             },
             "type": "library",
             "autoload": {
@@ -263,9 +264,9 @@
             "description": "codeat3's shared PHP style rules for PHP-CS-Fixer",
             "support": {
                 "issues": "https://github.com/codeat3/phpcs-styles/issues",
-                "source": "https://github.com/codeat3/phpcs-styles/tree/1.2.1"
+                "source": "https://github.com/codeat3/phpcs-styles/tree/1.3.1"
             },
-            "time": "2022-03-23T17:42:09+00:00"
+            "time": "2023-01-27T14:06:24+00:00"
         },
         {
             "name": "composer/pcre",
@@ -10030,7 +10031,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1.0",
+        "php": "^8.2",
         "ext-pdo_sqlite": "*"
     },
     "platform-dev": [],
