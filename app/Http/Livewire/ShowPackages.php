@@ -9,13 +9,13 @@ class ShowPackages extends Component
 {
     public $search;
 
-    public $sort_by = 'downloads';
+    public $sortBy = 'downloads';
 
-    public $sort_order = 'desc';
+    public $sortOrder = 'desc';
 
-    public $graph_type = 'downloads';
+    public $graphType = 'downloads';
 
-    public $listed_on_readme;
+    public $listedOnReadme;
 
     protected $queryString = ['search', 'sort_by', 'sort_order', 'listed_on_readme'];
 
@@ -48,19 +48,19 @@ class ShowPackages extends Component
                     ->orWhere('maintainers', 'LIKE', '%' . $this->search . '%')
             )
             ->when(
-                $this->listed_on_readme,
-                function ($builder, $listed_on_readme) {
-                    if ($listed_on_readme === 'yes') {
+                $this->listedOnReadme,
+                function ($builder, $listedOnReadme) {
+                    if ($listedOnReadme === 'yes') {
                         $builder->where('listed_on_blade_icon_readme', '=', true);
                     }
-                    if ($listed_on_readme === 'no') {
+                    if ($listedOnReadme === 'no') {
                         $builder->where('listed_on_blade_icon_readme', '=', false);
                     }
                 }
             )
             ->when(
-                $this->sort_by && $this->sort_order,
-                fn ($builder) => $builder->orderBy($this->sort_by, $this->sort_order),
+                $this->sortBy && $this->sortOrder,
+                fn ($builder) => $builder->orderBy($this->sortBy, $this->sortOrder),
                 fn ($builder) => $builder->orderBy('name', 'ASC')
             )
             ->get();
