@@ -10,8 +10,8 @@
                             <input type="text" wire:model.debounce.500ms="search" autocomplete="search" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
                         </div>
                         <div class="col-span-6 sm:col-span-2">
-                            <label for="sort_by" class="block text-sm font-medium text-gray-700">Sort By</label>
-                            <select wire:model="sort_by" autocomplete="sort_by" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            <label for="sortBy" class="block text-sm font-medium text-gray-700">Sort By</label>
+                            <select wire:model="sortBy" autocomplete="sortBy" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                                 <option>--</option>
                                 <option value="name">Name</option>
                                 <option value="downloads">Downloads</option>
@@ -19,8 +19,8 @@
                             </select>
                         </div>
                         <div class="col-span-6 sm:col-span-1">
-                            <label for="sort_order" class="block text-sm font-medium text-gray-700">Sort Order</label>
-                            <select wire:model="sort_order" autocomplete="sort_order" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            <label for="sortOrder" class="block text-sm font-medium text-gray-700">Sort Order</label>
+                            <select wire:model="sortOrder" autocomplete="sortOrder" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                                 <option value="asc">ASC</option>
                                 <option value="desc">DESC</option>
                             </select>
@@ -35,19 +35,19 @@
                                 </div>
                                 <div class="mt-4 space-y-1 text-gray-600">
                                     <div class="flex items-center">
-                                        <input id="listed_on_readme_yes" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="yes" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <input id="listed_on_readme_yes" wire:model="listedOnReadme" name="listedOnReadme" type="radio" value="yes" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
                                         <label for="listed_on_readme_yes" class="ml-3 block text-sm font-medium text-gray-700">
                                             Listed
                                         </label>
                                     </div>
                                     <div class="flex items-center">
-                                        <input id="listed_on_readme_no" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="no" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <input id="listed_on_readme_no" wire:model="listedOnReadme" name="listedOnReadme" type="radio" value="no" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
                                         <label for="listed_on_readme_no" class="ml-3 block text-sm font-medium text-gray-700">
                                             Not Listed
                                         </label>
                                     </div>
                                     <div class="flex items-center">
-                                        <input id="listed_on_readme_all" wire:model="listed_on_readme" name="listed_on_readme" type="radio" value="all" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                        <input id="listed_on_readme_all" wire:model="listedOnReadme" name="listedOnReadme" type="radio" value="all" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
                                         <label for="listed_on_readme_all" class="ml-3 block text-sm font-medium text-gray-700">
                                             All
                                         </label>
