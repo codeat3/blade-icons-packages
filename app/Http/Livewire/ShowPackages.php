@@ -17,13 +17,13 @@ class ShowPackages extends Component
 
     public $listedOnReadme;
 
-    protected $queryString = ['search', 'sort_by', 'sort_order', 'listed_on_readme'];
+    protected $queryString = ['search', 'sortBy', 'sortOrder', 'listedOnReadme'];
 
     protected $rules = [
         'search' => ['nullable', 'string'],
-        'sort_by' => ['nullable', 'in:name,downloads,stars'],
-        'sort_order' => ['nullable', 'in:asc,desc'],
-        'listed_on_readme' => ['nullable', 'in:all,yes,no'],
+        'sortBy' => ['nullable', 'in:name,downloads,stars'],
+        'sortOrder' => ['nullable', 'in:asc,desc'],
+        'listedOnReadme' => ['nullable', 'in:all,yes,no'],
     ];
 
     public function rules()
