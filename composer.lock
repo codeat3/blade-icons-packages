@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "983d7e5bb74a55f4680063618d33afa6b931b809"
+                "reference": "160bdb17267a47a1c7187e833fdc6192f09a255b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/983d7e5bb74a55f4680063618d33afa6b931b809",
-                "reference": "983d7e5bb74a55f4680063618d33afa6b931b809",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/160bdb17267a47a1c7187e833fdc6192f09a255b",
+                "reference": "160bdb17267a47a1c7187e833fdc6192f09a255b",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-02-22T00:52:47+00:00"
+            "time": "2023-02-22T20:11:47+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1736,16 +1736,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.52.2",
+            "version": "v9.52.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cf021e5e9edf854f832b191ad5168e9f2327cdf7"
+                "reference": "9239128cfb4d22afefb64060dfecf53e82987267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cf021e5e9edf854f832b191ad5168e9f2327cdf7",
-                "reference": "cf021e5e9edf854f832b191ad5168e9f2327cdf7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9239128cfb4d22afefb64060dfecf53e82987267",
+                "reference": "9239128cfb4d22afefb64060dfecf53e82987267",
                 "shasum": ""
             },
             "require": {
@@ -1930,7 +1930,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-21T18:19:59+00:00"
+            "time": "2023-02-22T14:38:06+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -7095,16 +7095,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.1.4",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "c4a80010830d793dc09f55c9d1e211250c3cc335"
+                "reference": "06f77fb6c37fde3ddcc850582ee94e35bb28f17e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/c4a80010830d793dc09f55c9d1e211250c3cc335",
-                "reference": "c4a80010830d793dc09f55c9d1e211250c3cc335",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/06f77fb6c37fde3ddcc850582ee94e35bb28f17e",
+                "reference": "06f77fb6c37fde3ddcc850582ee94e35bb28f17e",
                 "shasum": ""
             },
             "bin": [
@@ -7134,7 +7134,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-05T20:09:03+00:00"
+            "time": "2023-02-22T19:31:56+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
