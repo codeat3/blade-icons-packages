@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "2be35f032a4bcc7dfd7b7399b002e67096e1d67e"
+                "reference": "1e71e402a13a7bb96c6c49aff76d70cdec45b83a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/2be35f032a4bcc7dfd7b7399b002e67096e1d67e",
-                "reference": "2be35f032a4bcc7dfd7b7399b002e67096e1d67e",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/1e71e402a13a7bb96c6c49aff76d70cdec45b83a",
+                "reference": "1e71e402a13a7bb96c6c49aff76d70cdec45b83a",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-03-24T00:49:45+00:00"
+            "time": "2023-03-24T20:10:28+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -2217,16 +2217,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.9",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
+                "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
-                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
+                "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
                 "shasum": ""
             },
             "require": {
@@ -2262,7 +2262,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.4-dev"
+                    "dev-main": "2.5-dev"
                 }
             },
             "autoload": {
@@ -2319,7 +2319,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-15T14:07:24+00:00"
+            "time": "2023-03-24T15:16:10+00:00"
         },
         {
             "name": "league/config",
@@ -7101,16 +7101,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.2.1",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "61314b16a776da3ba332ee0390e999a361431e52"
+                "reference": "de2367892e2475e4ad42b4d86d8cfef4f2387471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/61314b16a776da3ba332ee0390e999a361431e52",
-                "reference": "61314b16a776da3ba332ee0390e999a361431e52",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/de2367892e2475e4ad42b4d86d8cfef4f2387471",
+                "reference": "de2367892e2475e4ad42b4d86d8cfef4f2387471",
                 "shasum": ""
             },
             "bin": [
@@ -7140,7 +7140,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-01T20:16:58+00:00"
+            "time": "2023-03-24T10:50:39+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -8297,16 +8297,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.7",
+            "version": "1.10.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975"
+                "reference": "0166aef76e066f0dd2adc2799bdadfa1635711e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b10ceb526d9607903c5b2673f1fc8775dbe48975",
-                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0166aef76e066f0dd2adc2799bdadfa1635711e9",
+                "reference": "0166aef76e066f0dd2adc2799bdadfa1635711e9",
                 "shasum": ""
             },
             "require": {
@@ -8355,7 +8355,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-16T15:24:20+00:00"
+            "time": "2023-03-24T10:28:16+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
