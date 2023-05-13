@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "6f3a037a065e60bb9efbb0f22fa8e72a81b7638a"
+                "reference": "de84b02cfd26f506f3827459e3a43ebb719ef33b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/6f3a037a065e60bb9efbb0f22fa8e72a81b7638a",
-                "reference": "6f3a037a065e60bb9efbb0f22fa8e72a81b7638a",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/de84b02cfd26f506f3827459e3a43ebb719ef33b",
+                "reference": "de84b02cfd26f506f3827459e3a43ebb719ef33b",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-05-12T20:09:40+00:00"
+            "time": "2023-05-13T00:45:41+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
