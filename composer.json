@@ -7,16 +7,15 @@
     "require": {
         "php": "^8.2",
         "ext-pdo_sqlite": "*",
-        "blade-ui-kit/blade-ui-kit": "^0.3.4",
+        "blade-ui-kit/blade-ui-kit": "^0.4",
         "calebporzio/sushi": "^2.3",
         "codeat3/blade-icons-packages-collection": "dev-main",
         "codeat3/phpcs-styles": "^1.2",
-        "fruitcake/laravel-cors": "^3.0",
         "guzzlehttp/guzzle": "^7.4",
-        "laravel/framework": "^9.0",
-        "laravel/sanctum": "^2.14",
+        "laravel/framework": "^10.0",
+        "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.7",
-        "laravolt/avatar": "^4.1",
+        "laravolt/avatar": "^5.0",
         "livewire/livewire": "^2.10",
         "symfony/yaml": "^6.0"
     },
@@ -25,11 +24,11 @@
         "fakerphp/faker": "^1.19",
         "laravel/sail": "^1.13",
         "mockery/mockery": "^1.5",
-        "nunomaduro/collision": "^6.1",
-        "phpstan/phpstan": "^1.8",
-        "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0",
-        "vimeo/psalm": "^4.25"
+        "nunomaduro/collision": "^7.6",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.2",
+        "spatie/laravel-ignition": "^2.1",
+        "vimeo/psalm": "^5.12"
     },
     "autoload": {
         "psr-4": {
