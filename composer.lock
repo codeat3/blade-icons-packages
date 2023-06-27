@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "bead62c754856224cc0bf4ef62af9252e28b36a2"
+                "reference": "ed59ca76bdad91361d821ad29760174a86ac171f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/bead62c754856224cc0bf4ef62af9252e28b36a2",
-                "reference": "bead62c754856224cc0bf4ef62af9252e28b36a2",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ed59ca76bdad91361d821ad29760174a86ac171f",
+                "reference": "ed59ca76bdad91361d821ad29760174a86ac171f",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-06-27T01:01:20+00:00"
+            "time": "2023-06-27T20:11:24+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1656,16 +1656,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.13.5",
+            "version": "v10.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "03106ae9ba2ec4b36dc973b7bdca6fad81e032b4"
+                "reference": "285cdd86a4beb433513b38f41a89b510e0724a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/03106ae9ba2ec4b36dc973b7bdca6fad81e032b4",
-                "reference": "03106ae9ba2ec4b36dc973b7bdca6fad81e032b4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/285cdd86a4beb433513b38f41a89b510e0724a3e",
+                "reference": "285cdd86a4beb433513b38f41a89b510e0724a3e",
                 "shasum": ""
             },
             "require": {
@@ -1852,7 +1852,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-08T20:25:36+00:00"
+            "time": "2023-06-27T13:26:12+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -9945,16 +9945,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "5.13.0",
+            "version": "5.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "a0a9c27630bcf8301ee78cb06741d2907d8c9fef"
+                "reference": "086b94371304750d1c673315321a55d15fc59015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/a0a9c27630bcf8301ee78cb06741d2907d8c9fef",
-                "reference": "a0a9c27630bcf8301ee78cb06741d2907d8c9fef",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/086b94371304750d1c673315321a55d15fc59015",
+                "reference": "086b94371304750d1c673315321a55d15fc59015",
                 "shasum": ""
             },
             "require": {
@@ -10045,9 +10045,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/5.13.0"
+                "source": "https://github.com/vimeo/psalm/tree/5.13.1"
             },
-            "time": "2023-06-24T17:05:12+00:00"
+            "time": "2023-06-27T16:39:49+00:00"
         }
     ],
     "aliases": [],
