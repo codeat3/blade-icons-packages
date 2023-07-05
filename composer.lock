@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "f6794225ad226c0e50dd1f96b578f359861ce9a5"
+                "reference": "8d8b64474c91aab89f14cfa9a6713e73092d4cee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/f6794225ad226c0e50dd1f96b578f359861ce9a5",
-                "reference": "f6794225ad226c0e50dd1f96b578f359861ce9a5",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/8d8b64474c91aab89f14cfa9a6713e73092d4cee",
+                "reference": "8d8b64474c91aab89f14cfa9a6713e73092d4cee",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-07-05T01:02:46+00:00"
+            "time": "2023-07-05T20:11:50+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -8200,16 +8200,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.23",
+            "version": "1.10.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "65ab678d1248a8bc6fde456f0d7ff3562a61a4cd"
+                "reference": "360ecc90569e9a60c2954ee209ec04fa0d958e14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/65ab678d1248a8bc6fde456f0d7ff3562a61a4cd",
-                "reference": "65ab678d1248a8bc6fde456f0d7ff3562a61a4cd",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/360ecc90569e9a60c2954ee209ec04fa0d958e14",
+                "reference": "360ecc90569e9a60c2954ee209ec04fa0d958e14",
                 "shasum": ""
             },
             "require": {
@@ -8258,7 +8258,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-04T13:32:44+00:00"
+            "time": "2023-07-05T12:32:13+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
