@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "c85fa25298b35dc7b42bf21ff4cfe01cc38a4f7e"
+                "reference": "e32c27a55728e6d13df4f1a3ff2cbb40a5f4fbec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/c85fa25298b35dc7b42bf21ff4cfe01cc38a4f7e",
-                "reference": "c85fa25298b35dc7b42bf21ff4cfe01cc38a4f7e",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e32c27a55728e6d13df4f1a3ff2cbb40a5f4fbec",
+                "reference": "e32c27a55728e6d13df4f1a3ff2cbb40a5f4fbec",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-08-07T00:49:33+00:00"
+            "time": "2023-08-07T20:10:00+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -7840,16 +7840,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v7.8.0",
+            "version": "v7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "1813f0a3470f2ac171443bc37b324c2a693005f9"
+                "reference": "61553ad3260845d7e3e49121b7074619233d361b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/1813f0a3470f2ac171443bc37b324c2a693005f9",
-                "reference": "1813f0a3470f2ac171443bc37b324c2a693005f9",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/61553ad3260845d7e3e49121b7074619233d361b",
+                "reference": "61553ad3260845d7e3e49121b7074619233d361b",
                 "shasum": ""
             },
             "require": {
@@ -7929,7 +7929,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-08-04T10:26:10+00:00"
+            "time": "2023-08-07T08:03:21+00:00"
         },
         {
             "name": "phar-io/manifest",
