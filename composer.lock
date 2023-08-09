@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "bc47a2ba0f5ead35ebe5d3d170816dce0e7b5431"
+                "reference": "f9c5f62ca2ed6a98d87dcfc07b6bf2ee98f8ec61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/bc47a2ba0f5ead35ebe5d3d170816dce0e7b5431",
-                "reference": "bc47a2ba0f5ead35ebe5d3d170816dce0e7b5431",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/f9c5f62ca2ed6a98d87dcfc07b6bf2ee98f8ec61",
+                "reference": "f9c5f62ca2ed6a98d87dcfc07b6bf2ee98f8ec61",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-08-09T00:50:20+00:00"
+            "time": "2023-08-09T20:10:59+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -2851,21 +2851,21 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f"
+                "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
-                "reference": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
+                "url": "https://api.github.com/repos/nette/schema/zipball/c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
+                "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^2.5.7 || ^3.1.5 ||  ^4.0",
-                "php": ">=7.1 <8.3"
+                "php": "7.1 - 8.3"
             },
             "require-dev": {
                 "nette/tester": "^2.3 || ^2.4",
@@ -2907,9 +2907,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.2.3"
+                "source": "https://github.com/nette/schema/tree/v1.2.4"
             },
-            "time": "2022-10-13T01:24:26+00:00"
+            "time": "2023-08-05T18:56:25+00:00"
         },
         {
             "name": "nette/utils",
