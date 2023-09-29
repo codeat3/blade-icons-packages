@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "4d3ecbd3fb1d8e61c826afa189a762d93afe708f"
+                "reference": "83744b7e012a0ab3d4cf1fc3e46ced8a7465a071"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/4d3ecbd3fb1d8e61c826afa189a762d93afe708f",
-                "reference": "4d3ecbd3fb1d8e61c826afa189a762d93afe708f",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/83744b7e012a0ab3d4cf1fc3e46ced8a7465a071",
+                "reference": "83744b7e012a0ab3d4cf1fc3e46ced8a7465a071",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2023-09-29T00:41:56+00:00"
+            "time": "2023-09-29T20:10:11+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -858,16 +858,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.30.0",
+            "version": "v3.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "95c64693b2f149966a2bc05a7a4981b0343ea52f"
+                "reference": "7c7a4ad2ed8fe50df3e25528218b13d383608f23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/95c64693b2f149966a2bc05a7a4981b0343ea52f",
-                "reference": "95c64693b2f149966a2bc05a7a4981b0343ea52f",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7c7a4ad2ed8fe50df3e25528218b13d383608f23",
+                "reference": "7c7a4ad2ed8fe50df3e25528218b13d383608f23",
                 "shasum": ""
             },
             "require": {
@@ -887,6 +887,9 @@
                 "symfony/polyfill-php81": "^1.27",
                 "symfony/process": "^5.4 || ^6.0",
                 "symfony/stopwatch": "^5.4 || ^6.0"
+            },
+            "conflict": {
+                "stevebauman/unfinalize": "*"
             },
             "require-dev": {
                 "facile-it/paraunit": "^1.3 || ^2.0",
@@ -941,7 +944,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.30.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.34.0"
             },
             "funding": [
                 {
@@ -949,7 +952,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-26T22:10:43+00:00"
+            "time": "2023-09-29T15:34:26+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1775,16 +1778,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.9",
+            "version": "v0.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "b603410e7af1040aa2d29e0a2cdca570bb63e827"
+                "reference": "37ed55f6950d921a87d5beeab16d03f8de26b060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/b603410e7af1040aa2d29e0a2cdca570bb63e827",
-                "reference": "b603410e7af1040aa2d29e0a2cdca570bb63e827",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/37ed55f6950d921a87d5beeab16d03f8de26b060",
+                "reference": "37ed55f6950d921a87d5beeab16d03f8de26b060",
                 "shasum": ""
             },
             "require": {
@@ -1826,9 +1829,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.9"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.10"
             },
-            "time": "2023-09-26T13:14:20+00:00"
+            "time": "2023-09-29T07:26:07+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -8198,16 +8201,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.35",
+            "version": "1.10.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e730e5facb75ffe09dfb229795e8c01a459f26c3"
+                "reference": "ffa3089511121a672e62969404e4fddc753f9b15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e730e5facb75ffe09dfb229795e8c01a459f26c3",
-                "reference": "e730e5facb75ffe09dfb229795e8c01a459f26c3",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ffa3089511121a672e62969404e4fddc753f9b15",
+                "reference": "ffa3089511121a672e62969404e4fddc753f9b15",
                 "shasum": ""
             },
             "require": {
@@ -8256,7 +8259,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-19T15:27:56+00:00"
+            "time": "2023-09-29T14:07:45+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
