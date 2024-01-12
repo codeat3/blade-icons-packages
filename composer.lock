@@ -268,12 +268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "e3d74545bdb9ed835f7e842be39e41adf8123265"
+                "reference": "89bea7c843cf3b676e3fe9b9ce01f89aec2cb82e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e3d74545bdb9ed835f7e842be39e41adf8123265",
-                "reference": "e3d74545bdb9ed835f7e842be39e41adf8123265",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/89bea7c843cf3b676e3fe9b9ce01f89aec2cb82e",
+                "reference": "89bea7c843cf3b676e3fe9b9ce01f89aec2cb82e",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-01-12T00:46:20+00:00"
+            "time": "2024-01-12T20:10:46+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -9883,16 +9883,16 @@
         },
         {
             "name": "spatie/laravel-ignition",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ignition.git",
-                "reference": "b9395ba48d3f30d42092cf6ceff75ed7256cd604"
+                "reference": "005e1e7b1232f3b22d7e7be3f602693efc7dba67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/b9395ba48d3f30d42092cf6ceff75ed7256cd604",
-                "reference": "b9395ba48d3f30d42092cf6ceff75ed7256cd604",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/005e1e7b1232f3b22d7e7be3f602693efc7dba67",
+                "reference": "005e1e7b1232f3b22d7e7be3f602693efc7dba67",
                 "shasum": ""
             },
             "require": {
@@ -9971,7 +9971,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-04T14:51:24+00:00"
+            "time": "2024-01-12T13:14:58+00:00"
         },
         {
             "name": "theseer/tokenizer",
