@@ -268,12 +268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "0eb0046eae684c628ab9e0308d00e3b523983f7b"
+                "reference": "78fae612cf5b327dc5885dc30c918f824042d1fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/0eb0046eae684c628ab9e0308d00e3b523983f7b",
-                "reference": "0eb0046eae684c628ab9e0308d00e3b523983f7b",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/78fae612cf5b327dc5885dc30c918f824042d1fe",
+                "reference": "78fae612cf5b327dc5885dc30c918f824042d1fe",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-01-16T00:45:07+00:00"
+            "time": "2024-01-16T20:10:53+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -927,16 +927,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.47.0",
+            "version": "v3.47.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "184dd992fe49169a18300dba4435212db55220f7"
+                "reference": "173c60d1eff911c9c54322704623a45561d3241d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/184dd992fe49169a18300dba4435212db55220f7",
-                "reference": "184dd992fe49169a18300dba4435212db55220f7",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/173c60d1eff911c9c54322704623a45561d3241d",
+                "reference": "173c60d1eff911c9c54322704623a45561d3241d",
                 "shasum": ""
             },
             "require": {
@@ -1006,7 +1006,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.47.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.47.1"
             },
             "funding": [
                 {
@@ -1014,7 +1014,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-15T15:35:57+00:00"
+            "time": "2024-01-16T18:54:21+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1646,16 +1646,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.40.0",
+            "version": "v10.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7a9470071dac9579ebf29ad1b9d73e4b8eb586fc"
+                "reference": "da31969bd35e6ee0bbcd9e876f88952dc754b012"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7a9470071dac9579ebf29ad1b9d73e4b8eb586fc",
-                "reference": "7a9470071dac9579ebf29ad1b9d73e4b8eb586fc",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/da31969bd35e6ee0bbcd9e876f88952dc754b012",
+                "reference": "da31969bd35e6ee0bbcd9e876f88952dc754b012",
                 "shasum": ""
             },
             "require": {
@@ -1847,7 +1847,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-01-09T11:46:47+00:00"
+            "time": "2024-01-16T15:23:58+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -7593,16 +7593,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.27.0",
+            "version": "v1.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "65a7764af5daadbd122e3b0d67be371d158a9b9a"
+                "reference": "9dc648978e4276f2bfd37a076a52e3bd9394777f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/65a7764af5daadbd122e3b0d67be371d158a9b9a",
-                "reference": "65a7764af5daadbd122e3b0d67be371d158a9b9a",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/9dc648978e4276f2bfd37a076a52e3bd9394777f",
+                "reference": "9dc648978e4276f2bfd37a076a52e3bd9394777f",
                 "shasum": ""
             },
             "require": {
@@ -7654,7 +7654,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-01-03T14:07:34+00:00"
+            "time": "2024-01-13T18:46:48+00:00"
         },
         {
             "name": "mockery/mockery",
