@@ -268,12 +268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "e0dd5de3e3786780e4caa813ba04d4d76e41a937"
+                "reference": "74ab4638e21789866285bbef061ece647286a2b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e0dd5de3e3786780e4caa813ba04d4d76e41a937",
-                "reference": "e0dd5de3e3786780e4caa813ba04d4d76e41a937",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/74ab4638e21789866285bbef061ece647286a2b5",
+                "reference": "74ab4638e21789866285bbef061ece647286a2b5",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-02-01T00:44:22+00:00"
+            "time": "2024-02-01T20:09:44+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -10024,16 +10024,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "5.21.0",
+            "version": "5.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "04ba9358e3f7d14a9dc3edd4e814a9d51d8c637f"
+                "reference": "8c473e2437be8b6a8fd8f630f0f11a16b114c494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/04ba9358e3f7d14a9dc3edd4e814a9d51d8c637f",
-                "reference": "04ba9358e3f7d14a9dc3edd4e814a9d51d8c637f",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/8c473e2437be8b6a8fd8f630f0f11a16b114c494",
+                "reference": "8c473e2437be8b6a8fd8f630f0f11a16b114c494",
                 "shasum": ""
             },
             "require": {
@@ -10130,7 +10130,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2024-01-30T22:52:27+00:00"
+            "time": "2024-02-01T01:04:32+00:00"
         }
     ],
     "aliases": [],
