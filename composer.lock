@@ -269,12 +269,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "6036af2ffc739af0d82367b510f8ae39f4dad23c"
+                "reference": "356381722ecb9094b3b9b8e6a103e6dfb5dec8fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/6036af2ffc739af0d82367b510f8ae39f4dad23c",
-                "reference": "6036af2ffc739af0d82367b510f8ae39f4dad23c",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/356381722ecb9094b3b9b8e6a103e6dfb5dec8fc",
+                "reference": "356381722ecb9094b3b9b8e6a103e6dfb5dec8fc",
                 "shasum": ""
             },
             "require": {
@@ -300,7 +300,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-03-22T00:42:17+00:00"
+            "time": "2024-03-22T20:09:51+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -8634,16 +8634,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.14",
+            "version": "10.5.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4cf8824bab39c2dd57b57b9f6332f7135e2a3a49"
+                "reference": "86376e05e8745ed81d88232ff92fee868247b07b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4cf8824bab39c2dd57b57b9f6332f7135e2a3a49",
-                "reference": "4cf8824bab39c2dd57b57b9f6332f7135e2a3a49",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/86376e05e8745ed81d88232ff92fee868247b07b",
+                "reference": "86376e05e8745ed81d88232ff92fee868247b07b",
                 "shasum": ""
             },
             "require": {
@@ -8715,7 +8715,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.14"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.15"
             },
             "funding": [
                 {
@@ -8731,7 +8731,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-21T07:31:09+00:00"
+            "time": "2024-03-22T04:17:47+00:00"
         },
         {
             "name": "sebastian/cli-parser",
