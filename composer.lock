@@ -270,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "1400de8c22f15381f24c93c156028508c9c93ca5"
+                "reference": "ff31017e3d561a8bfba544ba0792fe5f15a7132a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/1400de8c22f15381f24c93c156028508c9c93ca5",
-                "reference": "1400de8c22f15381f24c93c156028508c9c93ca5",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ff31017e3d561a8bfba544ba0792fe5f15a7132a",
+                "reference": "ff31017e3d561a8bfba544ba0792fe5f15a7132a",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +301,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-04-26T00:43:58+00:00"
+            "time": "2024-04-26T20:11:06+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -9780,16 +9780,16 @@
         },
         {
             "name": "spatie/ignition",
-            "version": "1.13.2",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ignition.git",
-                "reference": "952798e239d9969e4e694b124c2cc222798dbb28"
+                "reference": "80385994caed328f6f9c9952926932e65b9b774c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ignition/zipball/952798e239d9969e4e694b124c2cc222798dbb28",
-                "reference": "952798e239d9969e4e694b124c2cc222798dbb28",
+                "url": "https://api.github.com/repos/spatie/ignition/zipball/80385994caed328f6f9c9952926932e65b9b774c",
+                "reference": "80385994caed328f6f9c9952926932e65b9b774c",
                 "shasum": ""
             },
             "require": {
@@ -9859,7 +9859,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-16T08:49:17+00:00"
+            "time": "2024-04-26T08:45:51+00:00"
         },
         {
             "name": "spatie/laravel-ignition",
