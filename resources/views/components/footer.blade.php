@@ -5,13 +5,13 @@
             <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
                 <a href="#_" class="text-xl font-black leading-none text-gray-900 select-none logo">codeat3 <span
                         class="text-indigo-600">.</span></a>
-                <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021
+                <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© {{ date("Y") }}
                    blade-icons-packages-collection
                 </p>
                 <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
                     <span>Designed using <a href="https://tailwindui.com/">Tailwind UI</a> &  <a href="https://tailwindcss.com/">Tailwindcss</a></span>
                     <span>Developed using <a href="https://laravel.com/">Laravel</a></span>
-                    <span>Deployed on <a href="https://heroku.com/">Heroku</a></span>
+                    <span>Deployed on <a href="https://hetzner.com/">Hetzner</a></span>
                 </p>
                 <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
 
