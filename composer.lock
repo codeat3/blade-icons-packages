@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "eb9006441f6974b6d06c85fbbf5a5a47dbd04803"
+                "reference": "90096b871416525181dc2f52ac31094a1e667a50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/eb9006441f6974b6d06c85fbbf5a5a47dbd04803",
-                "reference": "eb9006441f6974b6d06c85fbbf5a5a47dbd04803",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/90096b871416525181dc2f52ac31094a1e667a50",
+                "reference": "90096b871416525181dc2f52ac31094a1e667a50",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-06-27T01:02:54+00:00"
+            "time": "2024-06-28T01:03:28+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -10362,16 +10362,16 @@
         },
         {
             "name": "spatie/error-solutions",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/error-solutions.git",
-                "reference": "9782ba6e25cb026cc653619e01ca695d428b3f03"
+                "reference": "55ea4117e0fde89d520883734ab9b71064c48876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/9782ba6e25cb026cc653619e01ca695d428b3f03",
-                "reference": "9782ba6e25cb026cc653619e01ca695d428b3f03",
+                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/55ea4117e0fde89d520883734ab9b71064c48876",
+                "reference": "55ea4117e0fde89d520883734ab9b71064c48876",
                 "shasum": ""
             },
             "require": {
@@ -10424,7 +10424,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/error-solutions/issues",
-                "source": "https://github.com/spatie/error-solutions/tree/1.0.2"
+                "source": "https://github.com/spatie/error-solutions/tree/1.0.3"
             },
             "funding": [
                 {
@@ -10432,7 +10432,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-26T13:09:17+00:00"
+            "time": "2024-06-27T12:22:48+00:00"
         },
         {
             "name": "spatie/flare-client-php",
