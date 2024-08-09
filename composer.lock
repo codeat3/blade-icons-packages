@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "8ac84c7ec12d823dd9e88f852fc0b378e2b95675"
+                "reference": "a5e9c86eb8e4d1298561048983389c2d5b6b1304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/8ac84c7ec12d823dd9e88f852fc0b378e2b95675",
-                "reference": "8ac84c7ec12d823dd9e88f852fc0b378e2b95675",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/a5e9c86eb8e4d1298561048983389c2d5b6b1304",
+                "reference": "a5e9c86eb8e4d1298561048983389c2d5b6b1304",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-08-08T01:07:11+00:00"
+            "time": "2024-08-09T01:07:26+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -8911,16 +8911,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.9",
+            "version": "1.11.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e370bcddadaede0c1716338b262346f40d296f82"
+                "reference": "640410b32995914bde3eed26fa89552f9c2c082f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e370bcddadaede0c1716338b262346f40d296f82",
-                "reference": "e370bcddadaede0c1716338b262346f40d296f82",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/640410b32995914bde3eed26fa89552f9c2c082f",
+                "reference": "640410b32995914bde3eed26fa89552f9c2c082f",
                 "shasum": ""
             },
             "require": {
@@ -8965,7 +8965,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-01T16:25:18+00:00"
+            "time": "2024-08-08T09:02:50+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
