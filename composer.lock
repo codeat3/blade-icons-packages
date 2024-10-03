@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "0a8fe6d93ce78b4bdb0347cc938f1ee9a8bbe313"
+                "reference": "d45eddb9bfc58335c098ab57eefaa6a89f5c5cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/0a8fe6d93ce78b4bdb0347cc938f1ee9a8bbe313",
-                "reference": "0a8fe6d93ce78b4bdb0347cc938f1ee9a8bbe313",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/d45eddb9bfc58335c098ab57eefaa6a89f5c5cf1",
+                "reference": "d45eddb9bfc58335c098ab57eefaa6a89f5c5cf1",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-10-02T01:13:23+00:00"
+            "time": "2024-10-03T01:14:00+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -10784,6 +10784,6 @@
         "php": "^8.2",
         "ext-pdo_sqlite": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
