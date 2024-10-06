@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "adde5f64a086584d52733cc6788eca65c84c28b5"
+                "reference": "7621257f24c7e2f89907b4e7eef798836ce61a67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/adde5f64a086584d52733cc6788eca65c84c28b5",
-                "reference": "adde5f64a086584d52733cc6788eca65c84c28b5",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/7621257f24c7e2f89907b4e7eef798836ce61a67",
+                "reference": "7621257f24c7e2f89907b4e7eef798836ce61a67",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-10-05T01:12:45+00:00"
+            "time": "2024-10-06T01:18:44+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -3049,12 +3049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "8de8c4e8669f978835e14e4ad2291935a022ee40"
+                "reference": "9522dad6211c4d995a01a9ac529da88d0b0ba7b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/8de8c4e8669f978835e14e4ad2291935a022ee40",
-                "reference": "8de8c4e8669f978835e14e4ad2291935a022ee40",
+                "url": "https://api.github.com/repos/nette/schema/zipball/9522dad6211c4d995a01a9ac529da88d0b0ba7b5",
+                "reference": "9522dad6211c4d995a01a9ac529da88d0b0ba7b5",
                 "shasum": ""
             },
             "require": {
@@ -3103,7 +3103,7 @@
                 "issues": "https://github.com/nette/schema/issues",
                 "source": "https://github.com/nette/schema/tree/v1.3.1"
             },
-            "time": "2024-10-05T00:06:25+00:00"
+            "time": "2024-10-05T03:01:50+00:00"
         },
         {
             "name": "nette/utils",
