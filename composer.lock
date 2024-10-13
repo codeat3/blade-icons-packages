@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "fb0f2adf131e96119432f6c3dee8f5adad7d8262"
+                "reference": "945664f51bfda7922cc5de2dd4131fcb122f755a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/fb0f2adf131e96119432f6c3dee8f5adad7d8262",
-                "reference": "fb0f2adf131e96119432f6c3dee8f5adad7d8262",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/945664f51bfda7922cc5de2dd4131fcb122f755a",
+                "reference": "945664f51bfda7922cc5de2dd4131fcb122f755a",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-10-12T01:11:52+00:00"
+            "time": "2024-10-13T01:18:41+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -7735,16 +7735,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.4.0",
+            "version": "v7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "b438dc22545ab2ecc67d79c80c7a79c156de3599"
+                "reference": "9d6397f25d8185622717e6e66d3eed737fd9d99b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/b438dc22545ab2ecc67d79c80c7a79c156de3599",
-                "reference": "b438dc22545ab2ecc67d79c80c7a79c156de3599",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/9d6397f25d8185622717e6e66d3eed737fd9d99b",
+                "reference": "9d6397f25d8185622717e6e66d3eed737fd9d99b",
                 "shasum": ""
             },
             "bin": [
@@ -7774,7 +7774,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-17T20:55:49+00:00"
+            "time": "2024-10-12T20:42:52+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
