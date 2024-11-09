@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "374ea79df14e3a81a6192bd9b7445d8f2e3ea4e4"
+                "reference": "63c2bac50f28cc8e6bbf9f3d048b3abb72cf3ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/374ea79df14e3a81a6192bd9b7445d8f2e3ea4e4",
-                "reference": "374ea79df14e3a81a6192bd9b7445d8f2e3ea4e4",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/63c2bac50f28cc8e6bbf9f3d048b3abb72cf3ba6",
+                "reference": "63c2bac50f28cc8e6bbf9f3d048b3abb72cf3ba6",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-11-08T01:13:12+00:00"
+            "time": "2024-11-09T01:10:40+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -7734,16 +7734,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.5.4",
+            "version": "v7.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "df7d86e47f9760ca98dc7ff10962dd07134ac489"
+                "reference": "1b37d639e0ffad980f6cc3873859b16de29ecad7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/df7d86e47f9760ca98dc7ff10962dd07134ac489",
-                "reference": "df7d86e47f9760ca98dc7ff10962dd07134ac489",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/1b37d639e0ffad980f6cc3873859b16de29ecad7",
+                "reference": "1b37d639e0ffad980f6cc3873859b16de29ecad7",
                 "shasum": ""
             },
             "require": {
@@ -7784,7 +7784,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-23T15:09:50+00:00"
+            "time": "2024-11-08T13:18:44+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -8304,16 +8304,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.12.0",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c"
+                "reference": "123267b2c49fbf30d78a7b2d333f6be754b94845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c",
-                "reference": "3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/123267b2c49fbf30d78a7b2d333f6be754b94845",
+                "reference": "123267b2c49fbf30d78a7b2d333f6be754b94845",
                 "shasum": ""
             },
             "require": {
@@ -8352,7 +8352,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.12.0"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.12.1"
             },
             "funding": [
                 {
@@ -8360,7 +8360,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-12T14:39:25+00:00"
+            "time": "2024-11-08T17:47:46+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
