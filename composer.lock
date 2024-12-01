@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "e7c34220156bb76e8fb0a2e0941db146e655562b"
+                "reference": "a78cc7972a220d317f5aef6640411606afdc3a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e7c34220156bb76e8fb0a2e0941db146e655562b",
-                "reference": "e7c34220156bb76e8fb0a2e0941db146e655562b",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/a78cc7972a220d317f5aef6640411606afdc3a31",
+                "reference": "a78cc7972a220d317f5aef6640411606afdc3a31",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-11-30T01:17:26+00:00"
+            "time": "2024-12-01T01:38:48+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -10753,11 +10753,11 @@
             "type": "project",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.x-dev",
-                    "dev-4.x": "4.x-dev",
-                    "dev-3.x": "3.x-dev",
+                    "dev-1.x": "1.x-dev",
                     "dev-2.x": "2.x-dev",
-                    "dev-1.x": "1.x-dev"
+                    "dev-3.x": "3.x-dev",
+                    "dev-4.x": "4.x-dev",
+                    "dev-master": "5.x-dev"
                 }
             },
             "autoload": {
