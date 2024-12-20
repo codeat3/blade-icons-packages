@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "c899f357c3cd5dc4980f789596411f9ce5c8a390"
+                "reference": "7429aa1db9859475865832013a515976366b172f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/c899f357c3cd5dc4980f789596411f9ce5c8a390",
-                "reference": "c899f357c3cd5dc4980f789596411f9ce5c8a390",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/7429aa1db9859475865832013a515976366b172f",
+                "reference": "7429aa1db9859475865832013a515976366b172f",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2024-12-19T01:18:19+00:00"
+            "time": "2024-12-20T01:14:38+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -2987,10 +2987,6 @@
             ],
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev",
-                    "dev-2.x": "2.x-dev"
-                },
                 "laravel": {
                     "providers": [
                         "Carbon\\Laravel\\ServiceProvider"
@@ -3000,6 +2996,10 @@
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev",
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
