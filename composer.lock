@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "70e4b3200fed49f27eb4483440d7dc1a31c7ae86"
+                "reference": "aeb176201671c5fd274dcfc27650a07bdc520d4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/70e4b3200fed49f27eb4483440d7dc1a31c7ae86",
-                "reference": "70e4b3200fed49f27eb4483440d7dc1a31c7ae86",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/aeb176201671c5fd274dcfc27650a07bdc520d4c",
+                "reference": "aeb176201671c5fd274dcfc27650a07bdc520d4c",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2025-01-07T01:14:36+00:00"
+            "time": "2025-01-08T01:14:34+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1118,16 +1118,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.66.1",
+            "version": "v3.66.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "cde186799d8e92960c5a00c96e6214bf7f5547a9"
+                "reference": "25addd3cb10e54cfd20b84d9c083c6625cd52218"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/cde186799d8e92960c5a00c96e6214bf7f5547a9",
-                "reference": "cde186799d8e92960c5a00c96e6214bf7f5547a9",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/25addd3cb10e54cfd20b84d9c083c6625cd52218",
+                "reference": "25addd3cb10e54cfd20b84d9c083c6625cd52218",
                 "shasum": ""
             },
             "require": {
@@ -1209,7 +1209,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.66.1"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.66.2"
             },
             "funding": [
                 {
@@ -1217,7 +1217,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-05T14:43:25+00:00"
+            "time": "2025-01-07T09:21:51+00:00"
         },
         {
             "name": "fruitcake/php-cors",
