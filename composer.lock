@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "e818a094042557ed08052a304c4723cd3de970c3"
+                "reference": "902b491a5059b3d1694d166cff765ed745cb68ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/e818a094042557ed08052a304c4723cd3de970c3",
-                "reference": "e818a094042557ed08052a304c4723cd3de970c3",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/902b491a5059b3d1694d166cff765ed745cb68ce",
+                "reference": "902b491a5059b3d1694d166cff765ed745cb68ce",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2025-03-21T01:18:58+00:00"
+            "time": "2025-03-22T01:17:16+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -4713,27 +4713,28 @@
         },
         {
             "name": "spatie/packagist-api",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/packagist-api.git",
-                "reference": "4d125fec1c937ba8485a5b7e026532508314fc32"
+                "reference": "0ce5b849df19338f44902008ebc1f9e9e166a1b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/packagist-api/zipball/4d125fec1c937ba8485a5b7e026532508314fc32",
-                "reference": "4d125fec1c937ba8485a5b7e026532508314fc32",
+                "url": "https://api.github.com/repos/spatie/packagist-api/zipball/0ce5b849df19338f44902008ebc1f9e9e166a1b6",
+                "reference": "0ce5b849df19338f44902008ebc1f9e9e166a1b6",
                 "shasum": ""
             },
             "require": {
-                "composer/semver": "^1.0|^2.0|^3.0",
+                "composer/semver": "^3.0",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^7.0",
-                "php": "^7.3|^8.0"
+                "php": "^8.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.4",
-                "spatie/phpunit-snapshot-assertions": "^4.2"
+                "laravel/pint": "^1.17.3",
+                "phpunit/phpunit": "^11.5 || ^12.0",
+                "spatie/phpunit-snapshot-assertions": "^5.1"
             },
             "type": "library",
             "autoload": {
@@ -4772,7 +4773,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/packagist-api/tree/2.1.0"
+                "source": "https://github.com/spatie/packagist-api/tree/2.1.1"
             },
             "funding": [
                 {
@@ -4784,7 +4785,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-01T10:13:17+00:00"
+            "time": "2025-03-21T09:22:04+00:00"
         },
         {
             "name": "symfony/console",
