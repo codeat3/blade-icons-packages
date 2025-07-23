@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "55e963993b99439e28d2d4ddf7d11300c764ae5c"
+                "reference": "671b5ef2377a460796a46dbfc5572a9f6bbbbb96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/55e963993b99439e28d2d4ddf7d11300c764ae5c",
-                "reference": "55e963993b99439e28d2d4ddf7d11300c764ae5c",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/671b5ef2377a460796a46dbfc5572a9f6bbbbb96",
+                "reference": "671b5ef2377a460796a46dbfc5572a9f6bbbbb96",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2025-07-22T01:42:13+00:00"
+            "time": "2025-07-23T01:43:28+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -8138,16 +8138,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.43.1",
+            "version": "v1.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "3e7d899232a8c5e3ea4fc6dee7525ad583887e72"
+                "reference": "a09097bd2a8a38e23ac472fa6a6cf5b0d1c1d3fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/3e7d899232a8c5e3ea4fc6dee7525ad583887e72",
-                "reference": "3e7d899232a8c5e3ea4fc6dee7525ad583887e72",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/a09097bd2a8a38e23ac472fa6a6cf5b0d1c1d3fe",
+                "reference": "a09097bd2a8a38e23ac472fa6a6cf5b0d1c1d3fe",
                 "shasum": ""
             },
             "require": {
@@ -8197,7 +8197,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2025-05-19T13:19:21+00:00"
+            "time": "2025-07-04T16:17:06+00:00"
         },
         {
             "name": "mockery/mockery",
