@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "2524736113df3c154f3c491d9171685d09f53719"
+                "reference": "29d3de2f3ebd54758e090f02a310edfb8771e7b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/2524736113df3c154f3c491d9171685d09f53719",
-                "reference": "2524736113df3c154f3c491d9171685d09f53719",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/29d3de2f3ebd54758e090f02a310edfb8771e7b2",
+                "reference": "29d3de2f3ebd54758e090f02a310edfb8771e7b2",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2025-08-30T01:17:02+00:00"
+            "time": "2025-08-31T01:25:47+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -8884,16 +8884,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8"
+                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
-                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/1e0cd5370df5dd2e556a36b9c62f62e555870495",
+                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495",
                 "shasum": ""
             },
             "require": {
@@ -8925,9 +8925,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.2.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.0"
             },
-            "time": "2025-07-13T07:04:09+00:00"
+            "time": "2025-08-30T15:50:23+00:00"
         },
         {
             "name": "phpstan/phpstan",
