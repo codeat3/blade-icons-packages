@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "ba316ee6cd897818bb50b3a266ce2feed14b66ba"
+                "reference": "882de3800f236bd30c212c159ffe068117c6c425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ba316ee6cd897818bb50b3a266ce2feed14b66ba",
-                "reference": "ba316ee6cd897818bb50b3a266ce2feed14b66ba",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/882de3800f236bd30c212c159ffe068117c6c425",
+                "reference": "882de3800f236bd30c212c159ffe068117c6c425",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2025-09-08T01:23:08+00:00"
+            "time": "2025-09-09T01:20:25+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1846,16 +1846,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.48.29",
+            "version": "v10.49.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8f7f9247cb8aad1a769d6b9815a6623d89b46b47"
+                "reference": "b6848517f93445e7f243aaa4f3c32cc70f6739e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8f7f9247cb8aad1a769d6b9815a6623d89b46b47",
-                "reference": "8f7f9247cb8aad1a769d6b9815a6623d89b46b47",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b6848517f93445e7f243aaa4f3c32cc70f6739e2",
+                "reference": "b6848517f93445e7f243aaa4f3c32cc70f6739e2",
                 "shasum": ""
             },
             "require": {
@@ -2014,6 +2014,7 @@
             },
             "autoload": {
                 "files": [
+                    "src/Illuminate/Collections/functions.php",
                     "src/Illuminate/Collections/helpers.php",
                     "src/Illuminate/Events/functions.php",
                     "src/Illuminate/Filesystem/functions.php",
@@ -2049,7 +2050,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-03-12T14:42:01+00:00"
+            "time": "2025-09-08T22:02:05+00:00"
         },
         {
             "name": "laravel/prompts",
