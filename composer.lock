@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "4a800f043596150c33e9b78fd67586c5f136a374"
+                "reference": "36de9f29dc382581b0a66e08cfe11662c22b03b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/4a800f043596150c33e9b78fd67586c5f136a374",
-                "reference": "4a800f043596150c33e9b78fd67586c5f136a374",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/36de9f29dc382581b0a66e08cfe11662c22b03b3",
+                "reference": "36de9f29dc382581b0a66e08cfe11662c22b03b3",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2026-02-18T02:06:11+00:00"
+            "time": "2026-02-19T02:04:57+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1113,16 +1113,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.94.0",
+            "version": "v3.94.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "883b20fb38c7866de9844ab6d0a205c423bde2d4"
+                "reference": "d1a3634e29916367b885250e1fc4dfd5ffe3b091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/883b20fb38c7866de9844ab6d0a205c423bde2d4",
-                "reference": "883b20fb38c7866de9844ab6d0a205c423bde2d4",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d1a3634e29916367b885250e1fc4dfd5ffe3b091",
+                "reference": "d1a3634e29916367b885250e1fc4dfd5ffe3b091",
                 "shasum": ""
             },
             "require": {
@@ -1205,7 +1205,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.94.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.94.1"
             },
             "funding": [
                 {
@@ -1213,7 +1213,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-11T16:44:33+00:00"
+            "time": "2026-02-18T12:24:42+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -10943,16 +10943,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "b39f1870fc7c3e9e4a26106df5053354b9260a33"
+                "reference": "79155f94852fa27e2f73b459f6503f5e87e2c188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/b39f1870fc7c3e9e4a26106df5053354b9260a33",
-                "reference": "b39f1870fc7c3e9e4a26106df5053354b9260a33",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/79155f94852fa27e2f73b459f6503f5e87e2c188",
+                "reference": "79155f94852fa27e2f73b459f6503f5e87e2c188",
                 "shasum": ""
             },
             "require": {
@@ -10999,9 +10999,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.1.4"
+                "source": "https://github.com/webmozarts/assert/tree/2.1.5"
             },
-            "time": "2026-02-17T12:17:51+00:00"
+            "time": "2026-02-18T14:09:36+00:00"
         }
     ],
     "aliases": [],
