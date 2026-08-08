@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "ea53c7ef91fa05c663722f88418a185fdd19cf87"
+                "reference": "c7bcf8551e5076f44ab0524ae2f5c45e0c9dbfe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ea53c7ef91fa05c663722f88418a185fdd19cf87",
-                "reference": "ea53c7ef91fa05c663722f88418a185fdd19cf87",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/c7bcf8551e5076f44ab0524ae2f5c45e0c9dbfe0",
+                "reference": "c7bcf8551e5076f44ab0524ae2f5c45e0c9dbfe0",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2026-08-07T02:35:01+00:00"
+            "time": "2026-08-08T01:25:33+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -1925,12 +1925,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3ff39b7a9b83e633383ec9b019827ed54b6d38bc"
+                "reference": "61cad00bdaf0f710da070e1596c9ca6d567f4d12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3ff39b7a9b83e633383ec9b019827ed54b6d38bc",
-                "reference": "3ff39b7a9b83e633383ec9b019827ed54b6d38bc",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/61cad00bdaf0f710da070e1596c9ca6d567f4d12",
+                "reference": "61cad00bdaf0f710da070e1596c9ca6d567f4d12",
                 "shasum": ""
             },
             "require": {
@@ -2125,7 +2125,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-02-15T14:12:07+00:00"
+            "time": "2026-08-07T13:41:57+00:00"
         },
         {
             "name": "laravel/prompts",
