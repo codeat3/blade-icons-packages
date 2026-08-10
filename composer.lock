@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "ff74f7a8b2af87b8b666eb5f498f5f79e07887ef"
+                "reference": "8c8418d3110ac68e43fe75ceb68bbc6e12d2e4c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/ff74f7a8b2af87b8b666eb5f498f5f79e07887ef",
-                "reference": "ff74f7a8b2af87b8b666eb5f498f5f79e07887ef",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/8c8418d3110ac68e43fe75ceb68bbc6e12d2e4c7",
+                "reference": "8c8418d3110ac68e43fe75ceb68bbc6e12d2e4c7",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2026-08-09T01:37:49+00:00"
+            "time": "2026-08-10T01:40:57+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -2465,16 +2465,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "5703d83ba3da3b2e356a5fedc848ed6d8ffb6529"
+                "reference": "73cb188c785abfa7a7bec73487148202968274c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/5703d83ba3da3b2e356a5fedc848ed6d8ffb6529",
-                "reference": "5703d83ba3da3b2e356a5fedc848ed6d8ffb6529",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/73cb188c785abfa7a7bec73487148202968274c6",
+                "reference": "73cb188c785abfa7a7bec73487148202968274c6",
                 "shasum": ""
             },
             "require": {
@@ -2568,7 +2568,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-03T13:42:31+00:00"
+            "time": "2026-08-09T14:10:38+00:00"
         },
         {
             "name": "league/config",
