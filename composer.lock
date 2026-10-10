@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeat3/blade-icons-packages-collection.git",
-                "reference": "9769995738237d8eac65c8dcdfe42c0a3040009d"
+                "reference": "6bd478d80bf4e2a61ef8143667c386e4c0009ccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/9769995738237d8eac65c8dcdfe42c0a3040009d",
-                "reference": "9769995738237d8eac65c8dcdfe42c0a3040009d",
+                "url": "https://api.github.com/repos/codeat3/blade-icons-packages-collection/zipball/6bd478d80bf4e2a61ef8143667c386e4c0009ccc",
+                "reference": "6bd478d80bf4e2a61ef8143667c386e4c0009ccc",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/codeat3/blade-icons-packages-collection/issues",
                 "source": "https://github.com/codeat3/blade-icons-packages-collection/tree/main"
             },
-            "time": "2026-10-09T04:40:36+00:00"
+            "time": "2026-10-10T04:26:15+00:00"
         },
         {
             "name": "codeat3/phpcs-styles",
@@ -7621,12 +7621,12 @@
             "version": "v5.7.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
+                "url": "https://github.com/phpdotenv/phpdotenv.git",
                 "reference": "301c07936b16d88628b126b01d082ba153cf4c40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/301c07936b16d88628b126b01d082ba153cf4c40",
+                "url": "https://api.github.com/repos/phpdotenv/phpdotenv/zipball/301c07936b16d88628b126b01d082ba153cf4c40",
                 "reference": "301c07936b16d88628b126b01d082ba153cf4c40",
                 "shasum": ""
             },
