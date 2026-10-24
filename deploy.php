@@ -142,7 +142,6 @@ task('deploy', [
     'artisan:config:cache',  // php artisan config:cache
     'artisan:route:cache',   // php artisan route:cache
     'artisan:view:cache',    // php artisan view:cache
-    'artisan:migrate',       // php artisan migrate --force
 
     // ── Go live (atomic symlink swap — zero downtime) ──────────
     'deploy:symlink',        // current → /releases/<new>
