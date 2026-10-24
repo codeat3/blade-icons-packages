@@ -21,7 +21,7 @@ require 'recipe/laravel.php';
 //  1. PROJECT  — change these per app
 // ═══════════════════════════════════════════════════════════════
 
-set('application', 'bladeiconpackages');                          // ← app name used in add-laravel-app.sh
+set('application', 'blade_icons_packages');                          // ← app name used in add-laravel-app.sh
 set('repository',  'git@github.com:codeat3/blade-icons-packages.git');   // ← your git repo (SSH URL)
 set('branch',      'main');                           // ← branch to deploy
 
