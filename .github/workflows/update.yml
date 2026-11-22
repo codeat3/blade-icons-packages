@@ -41,6 +41,14 @@ jobs:
         with:
           commit_message: Updated collection
 
+      - name: Install deploy SSH key
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+        env:
+          DEPLOY_KEY: ${{ secrets.FORGE_PKEY }}
+
       - uses: deployphp/action@v1
         with:
           dep: deploy production
