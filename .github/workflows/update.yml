@@ -49,6 +49,15 @@ jobs:
         env:
           DEPLOY_KEY: ${{ secrets.FORGE_PKEY }}
 
+      - name: Debug SSH (fingerprint and connection only)
+        continue-on-error: true
+        run: |
+          echo "Key fingerprint on runner:"
+          ssh-keygen -lf ~/.ssh/id_ed25519
+          echo "Runner public IP:"
+          curl -s https://api.ipify.org; echo
+          ssh -v -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15 -i ~/.ssh/id_ed25519 root@178.128.120.164 'echo ssh-ok' 2>&1 | grep -iE 'offering|offered|authenticat|denied|accepted|ssh-ok|Server host key' || true
+
       - uses: deployphp/action@v1
         with:
           dep: deploy production
