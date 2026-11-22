@@ -14,14 +14,14 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [8.2]
-        laravel: [^9.0]
+        php: [8.5]
+        laravel: [^13.0]
 
     name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.event.client_payload.ref }}
       - run: echo ${{ github.event.client_payload.sha }}
